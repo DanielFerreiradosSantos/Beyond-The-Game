@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond the Game | Retro Arcade</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+
+        /* =====================================================
+           WORLD 08 — ARCADE
+           ===================================================== */
+
+        #arcade-page {
+            min-height: 100vh;
+            padding: 25px 20px 50px;
+            box-sizing: border-box;
+
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.55),
+                    rgba(0, 0, 0, 0.80)
+                ),
+                url("../assets/background/arcade-background.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* =====================================================
+           1. CABEÇALHO
+           ===================================================== */
+
+        .arcade-header {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto 35px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .arcade-back {
+            padding: 12px 20px;
+
+            background: #222;
+            border: 2px solid white;
+
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+
+            transition: 0.2s;
+        }
+
+        .arcade-back:hover {
+            background: white;
+            color: black;
+        }
+
+        /* =====================================================
+           2. TÍTULO
+           ===================================================== */
+
+        .arcade-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .arcade-title h1 {
+            margin: 0;
+
+            font-size: clamp(32px, 6vw, 58px);
+            font-weight: 900;
+
+            color: #ffd447;
+            text-shadow:
+                4px 4px 0 #8b3900,
+                6px 6px 0 #000;
+        }
+
+        .arcade-title p {
+            margin-top: 12px;
+            font-size: 15px;
+            color: #ddd;
+        }
+
+        /* =====================================================
+           3. SELEÇÃO DE JOGOS
+           ===================================================== */
+
+        .arcade-selection {
+            width: 100%;
+            max-width: 750px;
+
+            margin: 0 auto 30px;
+            padding: 25px;
+
+            box-sizing: border-box;
+
+            background: rgba(0, 0, 0, 0.85);
+            border: 3px solid #ffd447;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .arcade-selection h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+
+            text-align: center;
+            color: #ffd447;
+            font-size: 22px;
+        }
+
+        .arcade-field {
+            margin-bottom: 18px;
+        }
+
+        .arcade-field label {
+            display: block;
+            margin-bottom: 8px;
+
+            font-weight: bold;
+            color: white;
+        }
+
+        .arcade-field select {
+            width: 100%;
+            padding: 13px;
+
+            box-sizing: border-box;
+
+            background: #171717;
+            color: white;
+
+            border: 2px solid #777;
+            font-size: 15px;
+        }
+
+        .arcade-field select:disabled {
+            opacity: 0.5;
+        }
+
+        /* =====================================================
+           4. BOTÃO START GAME
+           ===================================================== */
+
+        #start-game {
+            width: 100%;
+            padding: 16px;
+
+            background: #e6a900;
+            color: black;
+
+            border: 3px solid #fff0a5;
+
+            font-size: 19px;
+            font-weight: 900;
+
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        #start-game:hover:not(:disabled) {
+            background: #ffd447;
+            transform: scale(1.02);
+        }
+
+        #start-game:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        #arcade-status {
+            min-height: 22px;
+            margin-top: 15px;
+
+            text-align: center;
+            color: #ddd;
+            font-size: 13px;
+        }
+
+        /* =====================================================
+           5. ÁREA DO EMULADOR
+           ===================================================== */
+
+        .arcade-screen {
+            width: 100%;
+            max-width: 1000px;
+
+            margin: 0 auto;
+
+            background: #000;
+            border: 4px solid #555;
+
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+        }
+
+        #game {
+            width: 100%;
+            min-height: 0;
+            background: #000;
+        }
+
+        #game:empty {
+            height: 0;
+        }
+
+        .arcade-footer {
+            margin-top: 25px;
+            text-align: center;
+
+            color: #aaa;
+            font-size: 12px;
+        }
+
+        /* =====================================================
+           6. RESPONSIVIDADE
+           ===================================================== */
+
+        @media (max-width: 600px) {
+
+            #arcade-page {
+                padding: 15px 10px 35px;
+            }
+
+            .arcade-selection {
+                padding: 17px;
+            }
+
+            .arcade-header {
+                justify-content: center;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <main id="arcade-page">
+
+        <!-- =================================================
+             CABEÇALHO
+             ================================================= -->
+
+        <header class="arcade-header">
+
+            <a href="../menu.html" class="arcade-back">
+                ← BACK TO MENU
+            </a>
+
+            <div class="music-controls">
+
+                <button
+                    id="music-toggle-button"
+                    type="button"
+                    aria-label="Pausar ou continuar a música">
+
+                    PAUSE MUSIC
+
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =================================================
+             TÍTULO
+             ================================================= -->
+
+        <section class="arcade-title">
+
+            <h1>RETRO ARCADE</h1>
+
+            <p>
+                Choose your console. Select your game. Press START.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             SELEÇÃO DE CONSOLE E JOGO
+             ================================================= -->
+
+        <section class="arcade-selection">
+
+            <h2>GAME SELECT</h2>
+
+            <div class="arcade-field">
+
+                <label for="console-select">
+                    SELECT CONSOLE
+                </label>
+
+                <select id="console-select">
+
+                    <option value="nes">Nintendo Entertainment System</option>
+
+                    <option value="snes">Super Nintendo</option>
+
+                    <option value="megadrive">Sega Mega Drive</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="arcade-field">
+
+                <label for="game-select">
+                    SELECT GAME
+                </label>
+
+                <select id="game-select" disabled>
+
+                    <option value="">
+                        Loading games...
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button id="start-game" type="button" disabled>
+                START GAME
+            </button>
+
+
+            <div id="arcade-status" aria-live="polite">
+                Loading game library...
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TELA DO EMULADOR
+             ================================================= -->
+
+        <section class="arcade-screen">
+
+            <div id="game"></div>
+
+        </section>
+
+
+        <!-- =================================================
+             RODAPÉ
+             ================================================= -->
+
+        <footer class="arcade-footer">
+
+            BEYOND THE GAME — RETRO ARCADE
+
+        </footer>
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT — BIBLIOTECA DE JOGOS
+         ===================================================== -->
+
+    <script>
+
+        /* =====================================================
+           1. ELEMENTOS
+           ===================================================== */
+
+        const consoleSelect =
+            document.getElementById("console-select");
+
+        const gameSelect =
+            document.getElementById("game-select");
+
+        const startButton =
+            document.getElementById("start-game");
+
+        const statusText =
+            document.getElementById("arcade-status");
+
+        const gameScreen =
+            document.getElementById("game");
+
+
+        /* =====================================================
+           2. CONFIGURAÇÃO DOS CONSOLES
+           ===================================================== */
+
+        const consoleNames = {
+
+            nes: "Nintendo Entertainment System",
+
+            snes: "Super Nintendo",
+
+            megadrive: "Sega Mega Drive"
+
+        };
+
+
+        /* =====================================================
+           3. BIBLIOTECA DE JOGOS
+           ===================================================== */
+
+        let gameCatalog = {};
+
+        let emulatorStarted = false;
+
+
+        /* =====================================================
+           4. CARREGAMENTO DO CATÁLOGO
+           
+           Aqui somente o arquivo JSON é consultado.
+           O EmulatorJS NÃO é iniciado nesta etapa.
+           ===================================================== */
+
+        async function loadCatalog() {
+
+            try {
+
+                const response = await fetch(
+                    "../roms/catalog.json"
+                );
+
+                if (!response.ok) {
+                    throw new Error("Catalog not found");
+                }
+
+                gameCatalog = await response.json();
+
+                updateGameList();
+
+                statusText.textContent =
+                    "Game library loaded successfully.";
+
+            } catch (error) {
+
+                console.error(error);
+
+                statusText.textContent =
+                    "Unable to load game library. Check roms/catalog.json.";
+
+                gameSelect.innerHTML =
+                    '<option value="">Library unavailable</option>';
+
+                gameSelect.disabled = true;
+
+            }
+
+        }
+
+
+        /* =====================================================
+           5. ATUALIZAÇÃO DA LISTA DE JOGOS
+           ===================================================== */
+
+        function updateGameList() {
+
+            const selectedConsole =
+                consoleSelect.value;
+
+            const games =
+                gameCatalog[selectedConsole] || [];
+
+            gameSelect.innerHTML = "";
+
+            if (games.length === 0) {
+
+                gameSelect.innerHTML =
+                    '<option value="">No games available</option>';
+
+                gameSelect.disabled = true;
+                startButton.disabled = true;
+
+                statusText.textContent =
+                    "No games found for this console.";
+
+                return;
+
+            }
+
+            games.forEach(function(game) {
+
+                const option =
+                    document.createElement("option");
+
+                option.value = game.file;
+                option.textContent = game.name;
+
+                gameSelect.appendChild(option);
+
+            });
+
+            gameSelect.disabled = false;
+            startButton.disabled = false;
+
+            statusText.textContent =
+                games.length + " game(s) available.";
+
+        }
+
+
+        /* =====================================================
+           6. TROCA DE CONSOLE
+           ===================================================== */
+
+        consoleSelect.addEventListener(
+            "change",
+            updateGameList
+        );
+
+
+        /* =====================================================
+           7. INICIALIZAÇÃO DO EMULADOR
+
+           O EmulatorJS só será carregado depois do clique
+           no botão START GAME.
+           ===================================================== */
+
+        function startEmulator() {
+
+            if (emulatorStarted) {
+                return;
+            }
+
+            const selectedConsole =
+                consoleSelect.value;
+
+            const selectedGame =
+                gameSelect.value;
+
+            if (!selectedGame) {
+
+                statusText.textContent =
+                    "Please select a game first.";
+
+                return;
+
+            }
+
+            const selectedGames =
+                gameCatalog[selectedConsole] || [];
+
+            const gameExists =
+                selectedGames.some(function(game) {
+                    return game.file === selectedGame;
+                });
+
+            if (!gameExists) {
+
+                statusText.textContent =
+                    "Selected game is unavailable.";
+
+                return;
+
+            }
+
+            /* =============================================
+               CONFIGURAÇÃO DO EMULATORJS
+               ============================================= */
+
+            window.EJS_player = "#game";
+
+            window.EJS_core = {
+
+                nes: "nes",
+                snes: "snes",
+                megadrive: "segaMD"
+
+            }[selectedConsole];
+
+            window.EJS_gameUrl =
+                "../roms/" +
+                selectedConsole +
+                "/" +
+                selectedGame
+                    .split("/")
+                    .map(encodeURIComponent)
+                    .join("/");
+
+            window.EJS_pathtodata =
+                "../emulatorjs/data/";
+
+
+            /* =============================================
+               PREPARAÇÃO DA TELA
+               ============================================= */
+
+            emulatorStarted = true;
+
+            startButton.disabled = true;
+            consoleSelect.disabled = true;
+            gameSelect.disabled = true;
+
+            statusText.textContent =
+                "Starting " +
+                consoleNames[selectedConsole] +
+                "...";
+
+
+            /* =============================================
+               CARREGAMENTO DO EMULATORJS
+
+               Este script só é criado após START GAME.
+               ============================================= */
+
+            const emulatorScript =
+                document.createElement("script");
+
+            emulatorScript.src =
+                "../emulatorjs/data/loader.js";
+
+            emulatorScript.async = true;
+
+            emulatorScript.onerror = function() {
+
+                statusText.textContent =
+                    "Error loading EmulatorJS. Check emulatorjs/data/loader.js.";
+
+            };
+
+            document.body.appendChild(emulatorScript);
+
+        }
+
+
+        /* =====================================================
+           8. EVENTO START GAME
+           ===================================================== */
+
+        startButton.addEventListener(
+            "click",
+            startEmulator
+        );
+
+
+        /* =====================================================
+           9. INÍCIO DA PÁGINA
+           ===================================================== */
+
+        loadCatalog();
+
+    </script>
+
+
+    <!-- =====================================================
+         SISTEMA DE MÚSICA E NAVEGAÇÃO
+         ===================================================== -->
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

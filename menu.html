@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Codificação de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Adaptação para diferentes telas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond the Game | Select a World</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- =================================================
+         MENU DE SELEÇÃO DE MUNDOS
+         ================================================= -->
+
+    <main id="main-menu">
+
+        <div class="menu-background"></div>
+
+        <section class="menu-content">
+
+            <!-- IDENTIFICAÇÃO DO CRIADOR -->
+
+            <section class="creator-identification"
+                     aria-label="Identificação do criador">
+
+                <span class="creator-label">A PROJECT BY</span>
+
+                <h2>DANIEL FERREIRA DOS SANTOS</h2>
+
+                <div class="creator-details">
+
+                    <span>26 ANOS</span>
+                    <span class="creator-separator">◆</span>
+                    <span>CIÊNCIA DA COMPUTAÇÃO</span>
+                    <span class="creator-separator">◆</span>
+                    <span>UDF</span>
+
+                </div>
+
+            </section>
+
+
+            <!-- CABEÇALHO DO MENU -->
+
+            <header class="menu-header">
+
+                <h1>SELECT A WORLD</h1>
+
+                <p>Choose your destination</p>
+
+            </header>
+
+
+            <!-- QUADROS DOS MUNDOS -->
+
+            <nav class="world-menu"
+                 aria-label="Seleção de mundos">
+
+
+                <!-- WORLD 01 — SOBRE -->
+
+                <a href="pages/sobre.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-sobre"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 01</span>
+                        <h2>SOBRE</h2>
+                        <p>Apresentação pessoal</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 02 — FORMAÇÃO -->
+
+                <a href="pages/formacao.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-formacao"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 02</span>
+                        <h2>FORMAÇÃO</h2>
+                        <p>Faculdade e cursos</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 03 — PROGRAMAÇÃO -->
+
+                <a href="pages/programacao.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-programacao"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 03</span>
+                        <h2>PROGRAMAÇÃO</h2>
+                        <p>Linguagens e conhecimentos</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 04 — GAMEDEV -->
+
+                <a href="pages/gamedev.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-gamedev"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 04</span>
+                        <h2>GAMEDEV</h2>
+                        <p>Desenvolvimento de jogos</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 05 — PROJETOS -->
+
+                <a href="pages/projetos.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-projetos"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 05</span>
+                        <h2>PROJETOS</h2>
+                        <p>Trabalhos e criações</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 06 — OBJETIVOS -->
+
+                <a href="pages/objetivos.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-objetivos"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 06</span>
+                        <h2>OBJETIVOS</h2>
+                        <p>Planos futuros</p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WORLD 07 — CONTATOS -->
+
+                <button type="button"
+                        class="world-card world-card-button"
+                        id="open-contacts">
+
+                    <div class="world-art world-art-contatos"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 07</span>
+                        <h2>CONTATOS</h2>
+                        <p>Entre em contato</p>
+
+                    </div>
+
+                </button>
+
+
+                <!-- WORLD 08 — ARCADE -->
+
+                <a href="pages/arcade.html"
+                   class="world-card">
+
+                    <div class="world-art world-art-arcade"></div>
+
+                    <div class="world-info">
+
+                        <span class="world-number">WORLD 08</span>
+                        <h2>ARCADE</h2>
+                        <p>Play a classic game</p>
+
+                    </div>
+
+                </a>
+
+
+            </nav>
+
+
+            <!-- BOTÃO BACK -->
+
+            <nav class="menu-navigation"
+                 aria-label="Navegação de retorno">
+
+                <a href="index.html" class="back-button">
+                    BACK
+                </a>
+
+            </nav>
+
+        </section>
+
+
+        <!-- =================================================
+             JANELA DE CONTATOS
+             ================================================= -->
+
+        <div class="contacts-overlay"
+             id="contacts-overlay"
+             aria-hidden="true">
+
+            <section class="contacts-window"
+                     role="dialog"
+                     aria-modal="true"
+                     aria-labelledby="contacts-title">
+
+                <div class="contacts-window-header">
+
+                    <span class="contacts-window-label">
+                        WORLD 07
+                    </span>
+
+                    <button type="button"
+                            class="contacts-close"
+                            id="close-contacts"
+                            aria-label="Fechar janela">
+
+                        X
+
+                    </button>
+
+                </div>
+
+
+                <h2 id="contacts-title">
+                    CONTATOS
+                </h2>
+
+
+                <p class="contacts-description">
+
+                    Obrigado por explorar o Beyond the Game!
+
+                    Este espaço reúne meus canais de contato,
+                    onde você pode conhecer meus projetos,
+                    acompanhar minha jornada na tecnologia
+                    e entrar em contato comigo.
+
+                </p>
+
+
+                <!-- =================================================
+                     LINKS DE CONTATO
+                     ================================================= -->
+
+                <div class="contacts-links">
+
+                    <!-- E-MAIL -->
+
+                    <a href="mailto:daniel.inazumaeleven@gmail.com"
+                       class="contact-link">
+
+                        <span class="contact-link-title">
+                            E-MAIL
+                        </span>
+
+                        <span class="contact-link-description">
+                            daniel.inazumaeleven@gmail.com
+                        </span>
+
+                    </a>
+
+
+                    <!-- GITHUB -->
+
+                    <a href="https://github.com/DanielFerreiradosSantos"
+                       class="contact-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <span class="contact-link-title">
+                            GITHUB
+                        </span>
+
+                        <span class="contact-link-description">
+                            Conheça meus projetos e códigos
+                        </span>
+
+                    </a>
+
+
+                    <!-- LINKEDIN -->
+
+                    <a href="https://www.linkedin.com/in/daniel-ferreira-dos-santos-a15a50433/"
+                       class="contact-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        <span class="contact-link-title">
+                            LINKEDIN
+                        </span>
+
+                        <span class="contact-link-description">
+                            Meu perfil acadêmico e profissional
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <!-- BOTÃO VOLTAR -->
+
+                <button type="button"
+                        class="contacts-back"
+                        id="contacts-back">
+
+                    VOLTAR AO MENU
+
+                </button>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- =================================================
+         CONTROLE GLOBAL DA MÚSICA
+         ================================================= -->
+
+    <div class="music-controls">
+
+        <button
+            id="music-toggle-button"
+            type="button"
+            aria-label="Pausar ou continuar a música">
+
+            PAUSE MUSIC
+
+        </button>
+
+    </div>
+
+
+    <!-- =================================================
+         JAVASCRIPT PRINCIPAL
+         ================================================= -->
+
+    <script src="js/main.js"></script>
+
+
+    <!-- =================================================
+         CONTROLE DA JANELA DE CONTATOS
+         ================================================= -->
+
+    <script>
+
+        const contactsOverlay =
+            document.getElementById("contacts-overlay");
+
+        const openContactsButton =
+            document.getElementById("open-contacts");
+
+        const closeContactsButton =
+            document.getElementById("close-contacts");
+
+        const contactsBackButton =
+            document.getElementById("contacts-back");
+
+
+        // Abre a janela de contatos.
+        function openContacts() {
+
+            contactsOverlay.classList.add("active");
+
+            contactsOverlay.setAttribute(
+                "aria-hidden",
+                "false"
+            );
+
+            closeContactsButton.focus();
+
+        }
+
+
+        // Fecha a janela de contatos.
+        function closeContacts() {
+
+            contactsOverlay.classList.remove("active");
+
+            contactsOverlay.setAttribute(
+                "aria-hidden",
+                "true"
+            );
+
+            openContactsButton.focus();
+
+        }
+
+
+        // Clique no quadro CONTATOS.
+        openContactsButton.addEventListener(
+            "click",
+            openContacts
+        );
+
+
+        // Botão X.
+        closeContactsButton.addEventListener(
+            "click",
+            closeContacts
+        );
+
+
+        // Botão VOLTAR AO MENU.
+        contactsBackButton.addEventListener(
+            "click",
+            closeContacts
+        );
+
+
+        // Fecha ao clicar fora da janela.
+        contactsOverlay.addEventListener(
+            "click",
+            function(event) {
+
+                if (event.target === contactsOverlay) {
+                    closeContacts();
+                }
+
+            }
+        );
+
+
+        // Fecha ao pressionar ESC.
+        document.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key === "Escape" &&
+                    contactsOverlay.classList.contains("active")
+                ) {
+
+                    closeContacts();
+
+                }
+
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond the Game | About Me</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- =========================================
+         ESTILOS EXCLUSIVOS DA PÁGINA ABOUT ME
+         ========================================= -->
+
+    <style>
+
+        /* =========================================
+           1. CENÁRIO RED STAR
+           ========================================= */
+
+        #about-page {
+            position: relative;
+            isolation: isolate;
+            min-height: 100vh;
+            padding: 65px 20px 100px;
+            background-color: #83C7E9;
+            overflow: hidden;
+        }
+
+        .about-background {
+            position: fixed;
+            inset: 0;
+            z-index: -2;
+            background-color: #83C7E9;
+            background-image: url("../assets/background/about-background.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+        /* =========================================
+           2. IDENTIDADE RED STAR
+           ========================================= */
+
+        .about-header {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .about-header h1 {
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: clamp(3rem, 7vw, 5rem);
+            color: #FFF16A;
+            -webkit-text-stroke: 2px #8F1728;
+
+            text-shadow:
+                4px 4px 0 #8F1728,
+                7px 7px 0 #172A45;
+        }
+
+        .about-header p {
+            margin-top: 12px;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 19px;
+            color: #FFFFFF;
+
+            text-shadow:
+                2px 2px 0 #172A45;
+        }
+
+        .red-star-label {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 7px 18px;
+            background-color: rgba(214, 54, 43, 0.85);
+            border: 3px solid #FFF16A;
+            box-shadow: 3px 3px 0 #172A45;
+            color: #FFFFFF;
+            font-family: 'Pixelify Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+
+        /* =========================================
+           3. ÁREA DOS BLOCOS
+           ========================================= */
+
+        .about-content {
+            position: relative;
+            z-index: 1;
+            width: min(1050px, 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 55px;
+            margin: 0 auto;
+        }
+
+
+        /* =========================================
+           4. PLATAFORMAS
+           ========================================= */
+
+        .platform-box {
+            position: relative;
+            width: 100%;
+            min-height: 230px;
+            padding: 45px 55px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            isolation: isolate;
+            color: #172A45;
+        }
+
+        .platform-box::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+            opacity: 0.82;
+        }
+
+        .platform-placeholder {
+            position: absolute;
+            top: 8px;
+            right: 15px;
+
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 11px;
+
+            color: rgba(23, 42, 69, 0.65);
+            pointer-events: none;
+        }
+
+
+        /* =========================================
+           5. IMAGENS DAS PLATAFORMAS
+           ========================================= */
+
+        .platform-about::before {
+            background-image:
+                url("../assets/platforms/platform-about.jpg");
+        }
+
+        .platform-interests::before {
+            background-image:
+                url("../assets/platforms/platform-interests.jpg");
+        }
+
+        .platform-technology::before {
+            background-image:
+                url("../assets/platforms/platform-technology.jpg");
+        }
+
+
+        /* =========================================
+           5.1 SPRITES GIF DECORATIVOS
+           ========================================= */
+
+        .platform-sprite {
+            position: absolute;
+
+            /* POSIÇÃO: canto superior esquerdo */
+            top: -24px;
+            left: -20px;
+
+            /* TAMANHO DO SPRITE */
+            width: 64px;
+            height: 64px;
+
+            object-fit: contain;
+
+            /* Preserva a aparência pixelada */
+            image-rendering: pixelated;
+
+            z-index: 10;
+
+            pointer-events: none;
+            user-select: none;
+        }
+
+
+        /* =========================================
+           6. TEXTOS SOBRE AS PLATAFORMAS
+           ========================================= */
+
+        .platform-box h2 {
+            margin-bottom: 18px;
+
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: clamp(23px, 3vw, 32px);
+
+            color: #A82032;
+
+            text-shadow: 1px 1px 0 #FFFFFF;
+        }
+
+        .platform-box p {
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 17px;
+            font-weight: 900;
+            line-height: 1.8;
+
+            color: #F5C400;
+        }
+
+
+        /* =========================================
+           7. NAVEGAÇÃO
+           ========================================= */
+
+        .about-navigation {
+            position: relative;
+            z-index: 2;
+
+            display: flex;
+            justify-content: center;
+
+            margin-top: 55px;
+        }
+
+
+        /* =========================================
+           8. RESPONSIVIDADE
+           ========================================= */
+
+        @media (max-width: 600px) {
+
+            #about-page {
+                padding: 85px 12px 35px;
+            }
+
+            .about-content {
+                gap: 35px;
+            }
+
+            .platform-box {
+                min-height: 200px;
+                padding: 35px 28px;
+            }
+
+            .platform-box p {
+                font-size: 15px;
+            }
+
+            .platform-sprite {
+                width: 52px;
+                height: 52px;
+
+                top: -19px;
+                left: -10px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <main id="about-page">
+
+        <!-- FUNDO DA PÁGINA -->
+        <div class="about-background"></div>
+
+
+        <!-- =====================================
+             CABEÇALHO
+             ===================================== -->
+
+        <header class="about-header">
+
+            <h1>ABOUT ME</h1>
+
+            <p>A journey beyond the game</p>
+
+            <div class="red-star-label">
+                RED STAR POWER
+            </div>
+
+        </header>
+
+
+        <!-- =====================================
+             CONTEÚDO PESSOAL
+             ===================================== -->
+
+        <section class="about-content">
+
+
+            <!-- =================================
+                 BLOCO 01: APRESENTAÇÃO
+                 ================================= -->
+
+            <article class="platform-box platform-about">
+
+                <!-- GIF DO BLOCO 01
+                     COLOQUE SEU ARQUIVO AQUI:
+                     assets/sprites/sprite-about.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-about.gif"
+                    class="platform-sprite"
+                    alt=""
+                >
+
+                <span class="platform-placeholder">
+                    ESPAÇO — BLOCO TEXTO 01
+                </span>
+
+                <h2>Apresentação</h2>
+
+                <p>
+                    Beyond the Game<br>
+                    Muito além de jogar, existe o universo de criar.<br>
+
+                    O Beyond the Game nasceu da paixão pelos videogames e da curiosidade de explorar tudo aquilo que existe por trás deles.<br>
+
+                    Desde a infância, os jogos fazem parte da minha história. Mais do que entretenimento, sempre representaram espaços de imaginação, criatividade e descoberta. Com o passar do tempo, essa admiração despertou uma vontade diferente: compreender como esses universos são construídos e descobrir as possibilidades que a tecnologia oferece para transformar ideias em realidade.<br>
+
+                    Hoje, essa curiosidade encontra novos caminhos na Ciência da Computação, no estudo da programação e no desenvolvimento de jogos. Cada novo conhecimento representa uma oportunidade de aprender, experimentar e dar forma a projetos próprios.<br>
+
+                    O Beyond the Game é o espaço onde essa jornada ganha vida. Um ambiente dedicado ao aprendizado, à exploração de tecnologias, ao desenvolvimento de projetos e à liberdade de criar.<br>
+
+                    Aqui, o processo também faz parte do resultado. Ideias, experimentos, desafios e conquistas encontram seu lugar, acompanhando a evolução de quem está construindo seu próprio caminho no universo da tecnologia.<br>
+
+                    Afinal, os jogos podem ser o ponto de partida, mas as possibilidades vão muito além deles.<br>
+
+                    Welcome to Beyond the Game.
+                </p>
+
+            </article>
+
+
+            <!-- =================================
+                 BLOCO 02: INTERESSES
+                 ================================= -->
+
+            <article class="platform-box platform-interests">
+
+                <!-- GIF DO BLOCO 02
+                     COLOQUE SEU ARQUIVO AQUI:
+                     assets/sprites/sprite-interests.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-interests.gif"
+                    class="platform-sprite"
+                    alt=""
+                >
+
+                <span class="platform-placeholder">
+                    ESPAÇO — BLOCO TEXTO 02
+                </span>
+
+                <h2>Interesses</h2>
+
+                <p>
+                    Meus Interesses<br>
+
+                    Meus interesses estão ligados principalmente à tecnologia, à criatividade e às possibilidades que surgem quando essas duas áreas se encontram.<br>
+
+                    Os videogames sempre tiveram um lugar especial na minha vida, mas, com o tempo, minha curiosidade passou a ir além da experiência de jogar. Comecei a me interessar por tudo o que existe por trás de um jogo: sua programação, suas mecânicas, seus cenários, seus personagens e os sistemas que tornam cada experiência possível.<br>
+
+                    🎮 Videogames e Game Design<br>
+
+                    Tenho grande interesse por videogames, especialmente jogos clássicos e experiências que despertam criatividade e imaginação. Gosto de explorar como os jogos são construídos, como suas mecânicas funcionam e como diferentes elementos se unem para formar mundos e experiências interativas.<br>
+
+                    💻 Programação e Desenvolvimento de Software<br>
+
+                    A programação representa uma oportunidade de transformar ideias em algo concreto. Tenho interesse em aprender diferentes linguagens, compreender a lógica por trás dos sistemas e desenvolver programas, aplicações e ferramentas que possam resolver problemas ou criar novas possibilidades.<br>
+
+                    ⚙️ Tecnologia e Computação<br>
+
+                    Também me interessa explorar o funcionamento dos computadores, os sistemas, as ferramentas e as tecnologias que fazem parte do mundo digital. Quero compreender não apenas como utilizar essas ferramentas, mas também como funcionam e como podem ser aplicadas na criação de novos projetos.<br>
+
+                    🎨 Criatividade e Projetos Próprios<br>
+
+                    Gosto da ideia de transformar conceitos e referências em projetos originais. Isso envolve experimentar, planejar, desenvolver e aperfeiçoar ideias, seja na criação de jogos, aplicações ou outras experiências digitais. Para mim, criar também é uma forma de aprender e descobrir novas possibilidades.<br>
+
+                    Esses interesses não representam áreas isoladas, mas diferentes caminhos que se conectam. É justamente nessa conexão entre tecnologia, lógica e criatividade que encontro boa parte da minha motivação para continuar aprendendo e construindo.
+                </p>
+
+            </article>
+
+
+            <!-- =================================
+                 BLOCO 03: JOGOS E TECNOLOGIA
+                 ================================= -->
+
+            <article class="platform-box platform-technology">
+
+                <!-- GIF DO BLOCO 03
+                     COLOQUE SEU ARQUIVO AQUI:
+                     assets/sprites/sprite-technology.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-technology.gif"
+                    class="platform-sprite"
+                    alt=""
+                >
+
+                <span class="platform-placeholder">
+                    ESPAÇO — BLOCO TEXTO 03
+                </span>
+
+                <h2>Minha relação com os jogos e a tecnologia</h2>
+
+                <p>
+                    Existe algo nos videogames que sempre chamou minha atenção: a capacidade de transformar ideias em experiências. Um conjunto de pixels pode dar vida a um personagem, uma sequência de fases pode construir um mundo inteiro e algumas mecânicas bem pensadas podem fazer uma experiência permanecer na memória por muitos anos.<br>
+
+                    Jogos como Super Mario Bros. marcaram minha relação com esse universo. Mas existe uma parte dessa história que merece um destaque especial: Super Mario Bros. X (SMBX). Mais do que uma homenagem aos jogos clássicos de Mario, SMBX representa uma ideia que considero fascinante: permitir que os próprios jogadores ultrapassem os limites de simplesmente jogar e passem a criar suas próprias aventuras.<br>
+
+                    A possibilidade de construir fases, desenvolver mundos, combinar personagens, elementos e mecânicas e compartilhar criações com outras pessoas mostra como a criatividade de uma comunidade pode manter um universo vivo e em constante expansão. O legado do SMBX está justamente nessa liberdade de criação e na maneira como transformou a admiração por um jogo em uma oportunidade de desenvolver experiências próprias.<br>
+
+                    Essa filosofia também influencia a maneira como enxergo a tecnologia. Aquilo que antes eu explorava como jogador passou a despertar novas perguntas: como funciona? Como foi construído? Que lógica existe por trás disso? E, principalmente, como eu poderia criar algo com minhas próprias ideias?<br>
+
+                    Com isso, comecei a olhar para a programação, o desenvolvimento de jogos e as ferramentas de criação como caminhos para transformar imaginação em algo concreto. A tecnologia passou a representar não apenas um meio de compreender os universos que admiro, mas também uma oportunidade de construir os meus próprios.<br>
+
+                    É nessa conexão entre jogos, tecnologia e liberdade criativa que encontro uma das minhas maiores motivações. Quero aprender, experimentar e desenvolver projetos que carreguem minhas próprias ideias, assim como tantas criações de comunidades de jogos despertaram minha vontade de fazer o mesmo.<br>
+
+                    No fim, talvez seja essa a parte mais interessante de tudo: aquilo que começou como a vontade de explorar mundos criados por outras pessoas também se tornou a vontade de criar mundos que outras pessoas possam explorar.
+                </p>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- =====================================
+             VOLTAR AO MENU
+             ===================================== -->
+
+        <nav class="about-navigation"
+             aria-label="Navegação da página">
+
+            <a href="../menu.html" class="back-button">
+                BACK
+            </a>
+
+        </nav>
+
+    </main>
+
+
+    <!-- =========================================
+         CONTROLE DE MÚSICA
+         ========================================= -->
+
+    <div class="music-controls">
+
+        <button
+            id="music-toggle-button"
+            type="button"
+            aria-label="Pausar ou continuar a música">
+
+            PAUSE MUSIC
+
+        </button>
+
+    </div>
+
+
+    <!-- JAVASCRIPT PRINCIPAL -->
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

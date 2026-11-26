@@ -1,0 +1,12 @@
+Esta etapa já trabalha três fundamentos importantes da programação web:
+Tecnologia	O que estamos praticando
+HTML	Estrutura e organização
+CSS	Posicionamento, cores e efeitos
+JavaScript	Eventos e interação
+
+Também estamos utilizando conceitos como flexbox, position, z-index, seletores e eventos de clique.
+
+Sua próxima tarefa: executar a tela no navegador e me mostrar uma captura de tela do resultado.
+
+Depois vamos trabalhar no cenário crossover: diferentes universos, personagens e elementos de plataforma convivendo em uma única tela,
+ que será a verdadeira identidade visual do Beyond the Game.

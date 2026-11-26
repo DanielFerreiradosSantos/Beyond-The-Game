@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond the Game</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <main id="title-screen">
+
+        <div class="game-background">
+
+            <div class="background-sky">
+                <!-- Céu, nuvens e elementos distantes -->
+            </div>
+
+            <div class="background-world">
+                <!-- Montanhas, castelos e florestas -->
+            </div>
+
+            <div class="background-ground">
+                <!-- Chão, grama e plataformas -->
+            </div>
+
+        </div>
+
+
+        <section class="title-content">
+
+            <div class="character-container character-left">
+                <!-- Personagens do lado esquerdo -->
+            </div>
+
+            <div class="character-container character-right">
+                <!-- Personagens do lado direito -->
+            </div>
+
+
+            <div class="title-center">
+
+                <header class="game-logo">
+
+                    <h1>
+                        BEYOND
+                        <span>THE</span>
+                        <span>GAME</span>
+                    </h1>
+
+                </header>
+
+
+                <nav class="title-menu" aria-label="Menu principal">
+
+                    <button
+                        id="start-button"
+                        type="button"
+                        data-next-page="menu.html">
+
+                        START
+
+                    </button>
+
+                </nav>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- CONTROLE GLOBAL DA MÚSICA -->
+    <div
+        class="music-controls"
+        style="position: fixed; top: 15px; right: 15px; z-index: 9999;">
+
+        <button
+            id="music-toggle-button"
+            type="button"
+            aria-label="Pausar ou continuar a música">
+
+            PAUSE MUSIC
+
+        </button>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

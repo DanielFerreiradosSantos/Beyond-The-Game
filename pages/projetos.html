@@ -1,0 +1,723 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond the Game | Projetos</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <!-- =========================================
+         ESTILOS EXCLUSIVOS DA PÁGINA PROJETOS
+         TEMA: SUPER MARIO BROS. X
+         ========================================= -->
+
+    <style>
+
+        /* =========================================
+           1. CENÁRIO DO WORLD 5
+           ========================================= */
+
+        #projects-page {
+            position: relative;
+            isolation: isolate;
+
+            min-height: 100vh;
+
+            padding: 65px 20px 100px;
+
+            background-color: #172A45;
+
+            overflow: hidden;
+        }
+
+
+        /* =========================================
+           1.1 VÍDEO DE FUNDO
+           ========================================= */
+
+        .projects-background-video {
+            position: fixed;
+
+            inset: 0;
+
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+            object-position: center;
+
+            z-index: -2;
+
+            pointer-events: none;
+        }
+
+
+        /* =========================================
+           1.2 CAMADA DE CONTRASTE
+           ========================================= */
+
+        .projects-background-overlay {
+            position: fixed;
+
+            inset: 0;
+
+            z-index: -1;
+
+            background:
+                linear-gradient(
+                    rgba(8, 20, 40, 0.72),
+                    rgba(8, 20, 40, 0.82)
+                );
+
+            pointer-events: none;
+        }
+
+
+        /* =========================================
+           2. IDENTIDADE VISUAL
+           ========================================= */
+
+        .projects-header {
+            position: relative;
+            z-index: 1;
+
+            text-align: center;
+
+            margin-bottom: 45px;
+        }
+
+
+        .projects-header h1 {
+            font-family: 'Pixelify Sans', sans-serif;
+
+            font-size: clamp(3rem, 7vw, 5rem);
+
+            color: #FFF16A;
+
+            -webkit-text-stroke: 2px #A82032;
+
+            text-shadow:
+                4px 4px 0 #A82032,
+                7px 7px 0 #172A45;
+        }
+
+
+        .projects-header p {
+            margin-top: 12px;
+
+            font-family: 'Pixelify Sans', sans-serif;
+
+            font-size: 19px;
+
+            color: #FFFFFF;
+
+            text-shadow:
+                2px 2px 0 #172A45;
+        }
+
+
+        .projects-label {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 7px 18px;
+
+            background-color: rgba(168, 32, 50, 0.9);
+
+            border: 3px solid #FFF16A;
+
+            box-shadow: 3px 3px 0 #172A45;
+
+            color: #FFFFFF;
+
+            font-family: 'Pixelify Sans', sans-serif;
+
+            letter-spacing: 2px;
+        }
+
+
+        /* =========================================
+           3. ÁREA DOS BLOCOS
+           ========================================= */
+
+        .projects-content {
+            position: relative;
+            z-index: 1;
+
+            width: min(1050px, 100%);
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            gap: 55px;
+
+            margin: 0 auto;
+        }
+
+
+        /* =========================================
+           4. PLATAFORMAS
+           ========================================= */
+
+        .projects-box {
+            position: relative;
+
+            width: 100%;
+
+            min-height: 230px;
+
+            padding: 45px 55px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            isolation: isolate;
+
+            color: #172A45;
+        }
+
+
+        .projects-box::before {
+            content: "";
+
+            position: absolute;
+
+            inset: 0;
+
+            z-index: -1;
+
+            background-position: center;
+
+            background-size: 100% 100%;
+
+            background-repeat: no-repeat;
+
+            opacity: 0.88;
+        }
+
+
+        .projects-placeholder {
+            position: absolute;
+
+            top: 8px;
+            right: 15px;
+
+            font-family: 'Pixelify Sans', sans-serif;
+
+            font-size: 11px;
+
+            color: rgba(23, 42, 69, 0.65);
+
+            pointer-events: none;
+        }
+
+
+        /* =========================================
+           5. IMAGENS DAS PLATAFORMAS
+           ========================================= */
+
+
+        /* BLOCO 01 — LEGADO DO SMBX */
+
+        .projects-legacy::before {
+            background-image:
+                url("../assets/platforms/platform-smbx-legado.jpg");
+        }
+
+
+        /* BLOCO 02 — UMA IDEIA QUE CONTINUA */
+
+        .projects-idea::before {
+            background-image:
+                url("../assets/platforms/platform-smbx-ideia.jpg");
+        }
+
+
+        /* BLOCO 03 — SMBXU */
+
+        .projects-smbxu::before {
+            background-image:
+                url("../assets/platforms/platform-smbxu.jpg");
+        }
+
+
+        /* BLOCO 04 — VISÃO E DESENVOLVIMENTO */
+
+        .projects-development::before {
+            background-image:
+                url("../assets/platforms/platform-smbxu-desenvolvimento.jpg");
+        }
+
+
+        /* =========================================
+           5.1 SPRITES GIF DECORATIVOS
+           ========================================= */
+
+        .projects-sprite {
+            position: absolute;
+
+            /* POSIÇÃO NO CANTO SUPERIOR ESQUERDO */
+
+            top: -24px;
+            left: -20px;
+
+            /* TAMANHO DO SPRITE */
+
+            width: 64px;
+            height: 64px;
+
+            object-fit: contain;
+
+            image-rendering: pixelated;
+
+            z-index: 10;
+
+            pointer-events: none;
+
+            user-select: none;
+        }
+
+
+        /* =========================================
+           6. TEXTOS DAS PLATAFORMAS
+           ========================================= */
+
+        .projects-box h2 {
+            margin-bottom: 18px;
+
+            font-family: 'Pixelify Sans', sans-serif;
+
+            font-size: clamp(23px, 3vw, 32px);
+
+            color: #A82032;
+
+            text-shadow: 1px 1px 0 #FFFFFF;
+        }
+
+
+        .projects-box p {
+            font-family: 'Nunito Sans', sans-serif;
+
+            font-size: 17px;
+
+            font-weight: 900;
+
+            line-height: 1.8;
+
+            color: #F5C400;
+        }
+
+
+        /* =========================================
+           7. NAVEGAÇÃO
+           ========================================= */
+
+        .projects-navigation {
+            position: relative;
+            z-index: 2;
+
+            display: flex;
+
+            justify-content: center;
+
+            margin-top: 55px;
+        }
+
+
+        /* =========================================
+           8. RESPONSIVIDADE
+           ========================================= */
+
+        @media (max-width: 600px) {
+
+            #projects-page {
+                padding: 85px 12px 35px;
+            }
+
+            .projects-content {
+                gap: 35px;
+            }
+
+            .projects-box {
+                min-height: 200px;
+
+                padding: 35px 28px;
+            }
+
+            .projects-box p {
+                font-size: 15px;
+            }
+
+            .projects-sprite {
+                width: 52px;
+                height: 52px;
+
+                top: -19px;
+                left: -10px;
+            }
+
+        }
+
+
+        /* =========================================
+           9. ACESSIBILIDADE
+           ========================================= */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .projects-background-video {
+                display: none;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <main id="projects-page">
+
+
+        <!-- =====================================
+             VÍDEO DE FUNDO DO SMBX
+             ===================================== -->
+
+        <video
+            class="projects-background-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            aria-hidden="true">
+
+            <!--
+                COLOQUE A INTRODUÇÃO CLÁSSICA DO SMBX AQUI:
+
+                ../assets/videos/smbx-intro.mp4
+            -->
+
+            <source
+                src="../assets/videos/smbx-intro.mp4"
+                type="video/mp4">
+
+        </video>
+
+
+        <!-- CAMADA ESCURA SOBRE O VÍDEO -->
+
+        <div class="projects-background-overlay"></div>
+
+
+        <!-- =====================================
+             CABEÇALHO
+             ===================================== -->
+
+        <header class="projects-header">
+
+            <h1>PROJETOS</h1>
+
+            <p>Every great adventure begins with an idea</p>
+
+            <div class="projects-label">
+
+                WORLD 5 — PROJECT LEGACY
+
+            </div>
+
+        </header>
+
+
+        <!-- =====================================
+             CONTEÚDO DOS PROJETOS
+             ===================================== -->
+
+        <section class="projects-content">
+
+
+            <!-- =================================
+                 BLOCO 01 — LEGADO DO SMBX
+                 ================================= -->
+
+            <article class="projects-box projects-legacy">
+
+
+                <!--
+                    GIF DO BLOCO 01
+
+                    COLOQUE AQUI:
+
+                    ../assets/sprites/sprite-smbx-legado.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-smbx-legado.gif"
+                    class="projects-sprite"
+                    alt=""
+                >
+
+
+                <span class="projects-placeholder">
+
+                    ESPAÇO — BLOCO TEXTO 01
+
+                </span>
+
+
+                <h2>O Legado do SMBX</h2>
+
+
+                <p>
+
+                    Super Mario Bros. X foi muito além de um jogo de plataforma.
+                    Sua proposta permitia que os próprios jogadores criassem
+                    fases, mundos e aventuras, utilizando personagens,
+                    elementos e mecânicas inspirados no universo Mario.<br>
+
+                    A liberdade de criação tornou o SMBX uma experiência
+                    especial. Cada jogador poderia explorar conteúdos
+                    desenvolvidos por outras pessoas ou utilizar as ferramentas
+                    disponíveis para construir suas próprias aventuras.<br>
+
+                    O projeto ajudou a mostrar que um jogo também pode ser
+                    uma plataforma de criação, colaboração e compartilhamento.
+                    Seu legado está justamente nessa possibilidade de transformar
+                    jogadores em criadores.
+
+                </p>
+
+
+            </article>
+
+
+            <!-- =================================
+                 BLOCO 02 — UMA IDEIA QUE CONTINUA
+                 ================================= -->
+
+            <article class="projects-box projects-idea">
+
+
+                <!--
+                    GIF DO BLOCO 02
+
+                    COLOQUE AQUI:
+
+                    ../assets/sprites/sprite-smbx-ideia.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-smbx-ideia.gif"
+                    class="projects-sprite"
+                    alt=""
+                >
+
+
+                <span class="projects-placeholder">
+
+                    ESPAÇO — BLOCO TEXTO 02
+
+                </span>
+
+
+                <h2>Uma Ideia que Continua</h2>
+
+
+                <p>
+
+                    Meu contato com o SMBX aconteceu ainda na infância.
+                    Naquela época, a possibilidade de explorar fases criadas
+                    por outras pessoas e descobrir diferentes maneiras de
+                    brincar com o universo Mario despertava minha imaginação.<br>
+
+                    O que mais me marcava era perceber que não existiam apenas
+                    as aventuras tradicionais: havia um universo de possibilidades
+                    construído pela criatividade de uma comunidade inteira.<br>
+
+                    Com o passar dos anos, aquela experiência permaneceu como
+                    uma referência. A vontade de não apenas jogar, mas também
+                    criar, modificar e expandir aquele universo acabou se
+                    transformando em uma ideia: trazer essa experiência para
+                    uma nova etapa.
+
+                </p>
+
+
+            </article>
+
+
+            <!-- =================================
+                 BLOCO 03 — SMBXU
+                 ================================= -->
+
+            <article class="projects-box projects-smbxu">
+
+
+                <!--
+                    GIF DO BLOCO 03
+
+                    COLOQUE AQUI:
+
+                    ../assets/sprites/sprite-smbxu.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-smbxu.gif"
+                    class="projects-sprite"
+                    alt=""
+                >
+
+
+                <span class="projects-placeholder">
+
+                    ESPAÇO — BLOCO TEXTO 03
+
+                </span>
+
+
+                <h2>SMBXU — Uma Nova Jornada</h2>
+
+
+                <p>
+
+                    O Super Mario Bros. X Ultimate (SMBXU) é um projeto pessoal
+                    inspirado no legado do SMBX. Sua proposta é explorar maneiras
+                    de modernizar e expandir a experiência original, preservando
+                    a liberdade criativa que tornou o jogo tão especial.<br>
+
+                    A ideia é construir uma experiência que reúna jogo e criação
+                    em um mesmo ambiente, permitindo desenvolver fases, mundos,
+                    personagens e novos elementos que possam ser utilizados
+                    diretamente nas aventuras.<br>
+
+                    Mais do que atualizar um jogo, o SMBXU representa a vontade
+                    de dar continuidade a algo que marcou minha infância,
+                    utilizando os conhecimentos que venho adquirindo em
+                    programação e desenvolvimento de jogos.
+
+                </p>
+
+
+            </article>
+
+
+            <!-- =================================
+                 BLOCO 04 — VISÃO E DESENVOLVIMENTO
+                 ================================= -->
+
+            <article class="projects-box projects-development">
+
+
+                <!--
+                    GIF DO BLOCO 04
+
+                    COLOQUE AQUI:
+
+                    ../assets/sprites/sprite-smbxu-desenvolvimento.gif
+                -->
+
+                <img
+                    src="../assets/sprites/sprite-smbxu-desenvolvimento.gif"
+                    class="projects-sprite"
+                    alt=""
+                >
+
+
+                <span class="projects-placeholder">
+
+                    ESPAÇO — BLOCO TEXTO 04
+
+                </span>
+
+
+                <h2>Visão e Desenvolvimento</h2>
+
+
+                <p>
+
+                    O objetivo do SMBXU é desenvolver uma plataforma que
+                    amplie as possibilidades de criação e personalização.
+                    Entre as ideias estão um editor de fases integrado ao jogo,
+                    novos personagens, blocos, NPCs, itens e elementos
+                    personalizáveis.<br>
+
+                    Também fazem parte da visão sistemas de scripts para
+                    comportamentos personalizados, organização de conteúdos
+                    criados pelos jogadores e integração entre o editor e
+                    a experiência principal do jogo.<br>
+
+                    O projeto ainda representa uma jornada de aprendizado.
+                    Cada sistema exige pesquisa, planejamento, experimentação
+                    e desenvolvimento. A intenção é transformar essa visão
+                    gradualmente em algo jogável, funcional e cada vez mais
+                    completo.
+
+                </p>
+
+
+            </article>
+
+
+        </section>
+
+
+        <!-- =====================================
+             VOLTAR AO MENU
+             ===================================== -->
+
+        <nav
+            class="projects-navigation"
+            aria-label="Navegação da página">
+
+            <a href="../menu.html" class="back-button">
+
+                BACK
+
+            </a>
+
+        </nav>
+
+
+    </main>
+
+
+    <!-- =========================================
+         CONTROLE DE MÚSICA
+         ========================================= -->
+
+    <div class="music-controls">
+
+        <button
+            id="music-toggle-button"
+            type="button"
+            aria-label="Pausar ou continuar a música">
+
+            PAUSE MUSIC
+
+        </button>
+
+    </div>
+
+
+    <!-- JAVASCRIPT PRINCIPAL -->
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

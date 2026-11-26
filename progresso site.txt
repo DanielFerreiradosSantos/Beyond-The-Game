@@ -1,0 +1,93 @@
+1criamos a estrutura do site beyond the game
+
+2vamos construir a estrutura incial da tela de titulo em index.html
+
+3abri o arquivo style.css e construi o title screen
+
+4atualizando o index.html, preparando as areas para receber o cenário, os personagens e os elementos da tela
+
+5 style.css modificado: "
+/* =====================================================
+   3. CENÁRIO DE FUNDO — COMPOSIÇÃO PROVISÓRIA
+   ===================================================== */
+
+/* Camada principal que ocupa toda a tela */
+.game-background {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+
+    /* Céu com transição de cores */
+    background: linear-gradient(
+        to bottom,
+        #55A9DF 0%,
+        #A8DDF2 58%,
+        #D9F0F7 100%
+    );
+}
+
+/* Camada do céu: nuvens decorativas */
+.background-sky {
+    position: absolute;
+    inset: 0;
+
+    /* Nuvens construídas com gradientes radiais */
+    background:
+        radial-gradient(ellipse at 15% 25%, #FFFFFF 0 5%, transparent 5.5%),
+        radial-gradient(ellipse at 19% 23%, #FFFFFF 0 7%, transparent 7.5%),
+        radial-gradient(ellipse at 23% 26%, #FFFFFF 0 5%, transparent 5.5%),
+
+        radial-gradient(ellipse at 75% 17%, #FFFFFF 0 5%, transparent 5.5%),
+        radial-gradient(ellipse at 79% 15%, #FFFFFF 0 7%, transparent 7.5%),
+        radial-gradient(ellipse at 83% 18%, #FFFFFF 0 5%, transparent 5.5%);
+
+    opacity: 0.9;
+}
+
+/* Camada intermediária: colinas e montanhas */
+.background-world {
+    position: absolute;
+    inset: 0;
+
+    /* Formas arredondadas simulam colinas ao fundo */
+    background:
+        radial-gradient(
+            ellipse at 15% 100%,
+            #79B96A 0 25%,
+            transparent 25.5%
+        ),
+        radial-gradient(
+            ellipse at 85% 100%,
+            #6EAD60 0 30%,
+            transparent 30.5%
+        ),
+        radial-gradient(
+            ellipse at 50% 115%,
+            #91C879 0 35%,
+            transparent 35.5%
+        );
+}
+
+/* Camada próxima: chão e terreno */
+.background-ground {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 20%;
+
+    /* Grama e solo em duas faixas */
+    background: linear-gradient(
+        to bottom,
+        #65B84F 0%,
+        #65B84F 22%,
+        #A66B3F 22%,
+        #87502F 100%
+    );
+
+    /* Borda superior para destacar a grama */
+    border-top: 6px solid #397F3D;
+} "
+
+

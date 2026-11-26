@@ -1,0 +1,4876 @@
+{
+    "nes": [
+        {
+            "name": "Addams Family - Pugslys Scavenger Hunt",
+            "file": "Addams Family - Pugslys Scavenger Hunt.zip"
+        },
+        {
+            "name": "Addams Family - Uncle Fester's Quest",
+            "file": "Addams Family - Uncle Fester's Quest.zip"
+        },
+        {
+            "name": "Addams Family",
+            "file": "Addams Family.zip"
+        },
+        {
+            "name": "Adventure Island I",
+            "file": "Adventure Island I.zip"
+        },
+        {
+            "name": "Adventure Island II",
+            "file": "Adventure Island II.zip"
+        },
+        {
+            "name": "Adventure Island III",
+            "file": "Adventure Island III.zip"
+        },
+        {
+            "name": "Adventure Island IV",
+            "file": "Adventure Island IV.zip"
+        },
+        {
+            "name": "Adventures in the Magic Kingdom",
+            "file": "Adventures in the Magic Kingdom.zip"
+        },
+        {
+            "name": "Adventures of Bayou Billy",
+            "file": "Adventures of Bayou Billy.zip"
+        },
+        {
+            "name": "Adventures of Captain Comic",
+            "file": "Adventures of Captain Comic.zip"
+        },
+        {
+            "name": "Adventures of Dino Riki",
+            "file": "Adventures of Dino Riki.zip"
+        },
+        {
+            "name": "Adventures of Dr Franken",
+            "file": "Adventures of Dr Franken.zip"
+        },
+        {
+            "name": "Adventures of Lex & Grim",
+            "file": "Adventures of Lex & Grim.zip"
+        },
+        {
+            "name": "Adventures of Lolo I",
+            "file": "Adventures of Lolo I.zip"
+        },
+        {
+            "name": "Adventures of Lolo II",
+            "file": "Adventures of Lolo II.zip"
+        },
+        {
+            "name": "Adventures of Lolo III",
+            "file": "Adventures of Lolo III.zip"
+        },
+        {
+            "name": "Adventures of Musashi",
+            "file": "Adventures of Musashi.zip"
+        },
+        {
+            "name": "Adventures of Rad Gravity",
+            "file": "Adventures of Rad Gravity.zip"
+        },
+        {
+            "name": "Adventures of Rocky and Bullwinkle",
+            "file": "Adventures of Rocky and Bullwinkle.zip"
+        },
+        {
+            "name": "Adventures of Tom Sawyer",
+            "file": "Adventures of Tom Sawyer.zip"
+        },
+        {
+            "name": "Aladdin (Unl)",
+            "file": "Aladdin (Unl).zip"
+        },
+        {
+            "name": "Aladdin II",
+            "file": "Aladdin II.zip"
+        },
+        {
+            "name": "Aladdin",
+            "file": "Aladdin.zip"
+        },
+        {
+            "name": "Alfred Chicken",
+            "file": "Alfred Chicken.zip"
+        },
+        {
+            "name": "Alien 3",
+            "file": "Alien 3.zip"
+        },
+        {
+            "name": "Alien Syndrome",
+            "file": "Alien Syndrome.zip"
+        },
+        {
+            "name": "All-Pro Basketball",
+            "file": "All-Pro Basketball.zip"
+        },
+        {
+            "name": "B-Wings",
+            "file": "B-Wings.zip"
+        },
+        {
+            "name": "Balloon Fight",
+            "file": "Balloon Fight.zip"
+        },
+        {
+            "name": "Baltron",
+            "file": "Baltron.zip"
+        },
+        {
+            "name": "Banana Prince",
+            "file": "Banana Prince.zip"
+        },
+        {
+            "name": "Banana",
+            "file": "Banana.zip"
+        },
+        {
+            "name": "Bandai Golf - Challenge Pebble Beach",
+            "file": "Bandai Golf - Challenge Pebble Beach.zip"
+        },
+        {
+            "name": "Bandit Kings of Ancient China",
+            "file": "Bandit Kings of Ancient China.zip"
+        },
+        {
+            "name": "Barbie",
+            "file": "Barbie.zip"
+        },
+        {
+            "name": "Bard's Tale",
+            "file": "Bard's Tale.zip"
+        },
+        {
+            "name": "Barker Bill's Trick Shooting",
+            "file": "Barker Bill's Trick Shooting.zip"
+        },
+        {
+            "name": "Base Wars",
+            "file": "Base Wars.zip"
+        },
+        {
+            "name": "Baseball Simulator 1000",
+            "file": "Baseball Simulator 1000.zip"
+        },
+        {
+            "name": "Baseball Stars I",
+            "file": "Baseball Stars I.zip"
+        },
+        {
+            "name": "Baseball Stars II",
+            "file": "Baseball Stars II.zip"
+        },
+        {
+            "name": "Baseball",
+            "file": "Baseball.zip"
+        },
+        {
+            "name": "Bases Loaded I",
+            "file": "Bases Loaded I.zip"
+        },
+        {
+            "name": "Bases Loaded II",
+            "file": "Bases Loaded II.zip"
+        },
+        {
+            "name": "Bases Loaded III",
+            "file": "Bases Loaded III.zip"
+        },
+        {
+            "name": "Bases Loaded IV",
+            "file": "Bases Loaded IV.zip"
+        },
+        {
+            "name": "Bashi Bazook - Morphoid Masher",
+            "file": "Bashi Bazook - Morphoid Masher.zip"
+        },
+        {
+            "name": "Batman - Return of the Joker",
+            "file": "Batman - Return of the Joker.zip"
+        },
+        {
+            "name": "Batman Flash",
+            "file": "Batman Flash.zip"
+        },
+        {
+            "name": "Batman III",
+            "file": "Batman III.zip"
+        },
+        {
+            "name": "Batman Returns",
+            "file": "Batman Returns.zip"
+        },
+        {
+            "name": "Batman",
+            "file": "Batman.zip"
+        },
+        {
+            "name": "Bats & Terry",
+            "file": "Bats & Terry.zip"
+        },
+        {
+            "name": "Battle Chess",
+            "file": "Battle Chess.zip"
+        },
+        {
+            "name": "Battle City",
+            "file": "Battle City.zip"
+        },
+        {
+            "name": "Battle Kid I - Fortress of Peril",
+            "file": "Battle Kid I - Fortress of Peril.zip"
+        },
+        {
+            "name": "Battle Kid II - Mountain of Torment",
+            "file": "Battle Kid II - Mountain of Torment.zip"
+        },
+        {
+            "name": "Battle of Olympus",
+            "file": "Battle of Olympus.zip"
+        },
+        {
+            "name": "Battle Tank",
+            "file": "Battle Tank.zip"
+        },
+        {
+            "name": "Battleship (Unl)",
+            "file": "Battleship (Unl).zip"
+        },
+        {
+            "name": "Battleship",
+            "file": "Battleship.zip"
+        },
+        {
+            "name": "Battletoads & Double Dragon",
+            "file": "Battletoads & Double Dragon.zip"
+        },
+        {
+            "name": "Battletoads",
+            "file": "Battletoads.zip"
+        },
+        {
+            "name": "Bomberman I",
+            "file": "Bomberman I.zip"
+        },
+        {
+            "name": "Bomberman II",
+            "file": "Bomberman II.zip"
+        },
+        {
+            "name": "BombSweeper",
+            "file": "BombSweeper.zip"
+        },
+        {
+            "name": "Bonk's Adventure",
+            "file": "Bonk's Adventure.zip"
+        },
+        {
+            "name": "Booby Kids",
+            "file": "Booby Kids.zip"
+        },
+        {
+            "name": "Boogerman",
+            "file": "Boogerman.zip"
+        },
+        {
+            "name": "Boulder Dash",
+            "file": "Boulder Dash.zip"
+        },
+        {
+            "name": "Bram Stoker's Dracula",
+            "file": "Bram Stoker's Dracula.zip"
+        },
+        {
+            "name": "Break Time - The National Pool Tour",
+            "file": "Break Time - The National Pool Tour.zip"
+        },
+        {
+            "name": "Breakthru",
+            "file": "Breakthru.zip"
+        },
+        {
+            "name": "Brush Roller",
+            "file": "Brush Roller.zip"
+        },
+        {
+            "name": "Bubble Bobble I",
+            "file": "Bubble Bobble I.zip"
+        },
+        {
+            "name": "Bubble Bobble Part II",
+            "file": "Bubble Bobble Part II.zip"
+        },
+        {
+            "name": "Bucky O'Hare",
+            "file": "Bucky O'Hare.zip"
+        },
+        {
+            "name": "Bugs Bunny Birthday Blowout",
+            "file": "Bugs Bunny Birthday Blowout.zip"
+        },
+        {
+            "name": "Bugs Bunny Crazy Castle",
+            "file": "Bugs Bunny Crazy Castle.zip"
+        },
+        {
+            "name": "Bump'n'Jump",
+            "file": "Bump'n'Jump.zip"
+        },
+        {
+            "name": "Burai Fighter",
+            "file": "Burai Fighter.zip"
+        },
+        {
+            "name": "Burger Time",
+            "file": "Burger Time.zip"
+        },
+        {
+            "name": "Buzz and Waldog",
+            "file": "Buzz and Waldog.zip"
+        },
+        {
+            "name": "Cabal",
+            "file": "Cabal.zip"
+        },
+        {
+            "name": "Cadillac",
+            "file": "Cadillac.zip"
+        },
+        {
+            "name": "Caesar's Palace",
+            "file": "Caesar's Palace.zip"
+        },
+        {
+            "name": "California Games",
+            "file": "California Games.zip"
+        },
+        {
+            "name": "California Raisins - Grape Escape",
+            "file": "California Raisins - Grape Escape.zip"
+        },
+        {
+            "name": "Caltron 6 in 1",
+            "file": "Caltron 6 in 1.zip"
+        },
+        {
+            "name": "Captain America and the Avengers",
+            "file": "Captain America and the Avengers.zip"
+        },
+        {
+            "name": "Captain Ed",
+            "file": "Captain Ed.zip"
+        },
+        {
+            "name": "Captain Planet and the Planeteers",
+            "file": "Captain Planet and the Planeteers.zip"
+        },
+        {
+            "name": "Captain Silver",
+            "file": "Captain Silver.zip"
+        },
+        {
+            "name": "Captain Sky Hawk",
+            "file": "Captain Sky Hawk.zip"
+        },
+        {
+            "name": "Captain Tsubasa Vol II - Super Striker",
+            "file": "Captain Tsubasa Vol II - Super Striker.zip"
+        },
+        {
+            "name": "Casino Kid I",
+            "file": "Casino Kid I.zip"
+        },
+        {
+            "name": "Casino Kid II",
+            "file": "Casino Kid II.zip"
+        },
+        {
+            "name": "Castelian",
+            "file": "Castelian.zip"
+        },
+        {
+            "name": "Castle of Deceit",
+            "file": "Castle of Deceit.zip"
+        },
+        {
+            "name": "Castle of Dragon",
+            "file": "Castle of Dragon.zip"
+        },
+        {
+            "name": "Castlequest",
+            "file": "Castlequest.zip"
+        },
+        {
+            "name": "Castlevania I",
+            "file": "Castlevania I.zip"
+        },
+        {
+            "name": "Castlevania II - Simon's Quest",
+            "file": "Castlevania II - Simon's Quest.zip"
+        },
+        {
+            "name": "Castlevania III - Dracula's Curse",
+            "file": "Castlevania III - Dracula's Curse.zip"
+        },
+        {
+            "name": "Castlevania III - Legend Demon Castle",
+            "file": "Castlevania III - Legend Demon Castle.zip"
+        },
+        {
+            "name": "Caveman Games",
+            "file": "Caveman Games.zip"
+        },
+        {
+            "name": "Chack 'n Pop",
+            "file": "Chack 'n Pop.zip"
+        },
+        {
+            "name": "Challenge of the Dragon (Unl)",
+            "file": "Challenge of the Dragon (Unl).zip"
+        },
+        {
+            "name": "Challenge of the Dragon",
+            "file": "Challenge of the Dragon.zip"
+        },
+        {
+            "name": "Challenger",
+            "file": "Challenger.zip"
+        },
+        {
+            "name": "Championship Bowling",
+            "file": "Championship Bowling.zip"
+        },
+        {
+            "name": "Championship Lode Runner",
+            "file": "Championship Lode Runner.zip"
+        },
+        {
+            "name": "Championship Pool",
+            "file": "Championship Pool.zip"
+        },
+        {
+            "name": "Championship Rally",
+            "file": "Championship Rally.zip"
+        },
+        {
+            "name": "Cheetahmen II",
+            "file": "Cheetahmen II.zip"
+        },
+        {
+            "name": "Chess Academy",
+            "file": "Chess Academy.zip"
+        },
+        {
+            "name": "Chessmaster",
+            "file": "Chessmaster.zip"
+        },
+        {
+            "name": "Chester Field",
+            "file": "Chester Field.zip"
+        },
+        {
+            "name": "Chiller",
+            "file": "Chiller.zip"
+        },
+        {
+            "name": "China Rabbit Baby",
+            "file": "China Rabbit Baby.zip"
+        },
+        {
+            "name": "Chinese Checkers",
+            "file": "Chinese Checkers.zip"
+        },
+        {
+            "name": "Chip 'n Dale Rescue Rangers I",
+            "file": "Chip 'n Dale Rescue Rangers I.zip"
+        },
+        {
+            "name": "Chip 'n Dale Rescue Rangers II",
+            "file": "Chip 'n Dale Rescue Rangers II.zip"
+        },
+        {
+            "name": "Choplifter",
+            "file": "Choplifter.zip"
+        },
+        {
+            "name": "Chou Jikuu Yousai - Macross",
+            "file": "Chou Jikuu Yousai - Macross.zip"
+        },
+        {
+            "name": "Choujin Sentai - Jetman",
+            "file": "Choujin Sentai - Jetman.zip"
+        },
+        {
+            "name": "Chronicle of the Radia War",
+            "file": "Chronicle of the Radia War.zip"
+        },
+        {
+            "name": "Chubby Cherub",
+            "file": "Chubby Cherub.zip"
+        },
+        {
+            "name": "Chuuka Taisen",
+            "file": "Chuuka Taisen.zip"
+        },
+        {
+            "name": "Circus Caper",
+            "file": "Circus Caper.zip"
+        },
+        {
+            "name": "Circus Charlie",
+            "file": "Circus Charlie.zip"
+        },
+        {
+            "name": "City Adventure Touch",
+            "file": "City Adventure Touch.zip"
+        },
+        {
+            "name": "City Connection",
+            "file": "City Connection.zip"
+        },
+        {
+            "name": "Clash At Demonhead",
+            "file": "Clash At Demonhead.zip"
+        },
+        {
+            "name": "Classic Concentration",
+            "file": "Classic Concentration.zip"
+        },
+        {
+            "name": "Cliffhanger",
+            "file": "Cliffhanger.zip"
+        },
+        {
+            "name": "Clu Clu Land",
+            "file": "Clu Clu Land.zip"
+        },
+        {
+            "name": "Cobra Command",
+            "file": "Cobra Command.zip"
+        },
+        {
+            "name": "Cobra Triangle",
+            "file": "Cobra Triangle.zip"
+        },
+        {
+            "name": "Cocoron",
+            "file": "Cocoron.zip"
+        },
+        {
+            "name": "Code Name - Viper",
+            "file": "Code Name - Viper.zip"
+        },
+        {
+            "name": "Color A Dinosaur",
+            "file": "Color A Dinosaur.zip"
+        },
+        {
+            "name": "Columbus - Golden Dawn",
+            "file": "Columbus - Golden Dawn.zip"
+        },
+        {
+            "name": "Commando",
+            "file": "Commando.zip"
+        },
+        {
+            "name": "Conan",
+            "file": "Conan.zip"
+        },
+        {
+            "name": "Conflict",
+            "file": "Conflict.zip"
+        },
+        {
+            "name": "Conquest of the Crystal Palace",
+            "file": "Conquest of the Crystal Palace.zip"
+        },
+        {
+            "name": "Contra [Stardust Crusaders]",
+            "file": "Contra [Stardust Crusaders].zip"
+        },
+        {
+            "name": "Contra Fighter",
+            "file": "Contra Fighter.zip"
+        },
+        {
+            "name": "Contra Force",
+            "file": "Contra Force.zip"
+        },
+        {
+            "name": "Contra I",
+            "file": "Contra I.zip"
+        },
+        {
+            "name": "Contra II - Super C",
+            "file": "Contra II - Super C.zip"
+        },
+        {
+            "name": "Contra Spirits",
+            "file": "Contra Spirits.zip"
+        },
+        {
+            "name": "Contra",
+            "file": "Contra.zip"
+        },
+        {
+            "name": "Cool World",
+            "file": "Cool World.zip"
+        },
+        {
+            "name": "Cosmic Epsilon",
+            "file": "Cosmic Epsilon.zip"
+        },
+        {
+            "name": "Cosmic Wars",
+            "file": "Cosmic Wars.zip"
+        },
+        {
+            "name": "Cosmo Police Galivan",
+            "file": "Cosmo Police Galivan.zip"
+        },
+        {
+            "name": "Cosmos Cop",
+            "file": "Cosmos Cop.zip"
+        },
+        {
+            "name": "Cowboy Kid",
+            "file": "Cowboy Kid.zip"
+        },
+        {
+            "name": "Crackout",
+            "file": "Crackout.zip"
+        },
+        {
+            "name": "Crash 'n the Boys - Street Challenge",
+            "file": "Crash 'n the Boys - Street Challenge.zip"
+        },
+        {
+            "name": "Crayon Shin-Chan - Ora to Poi Poi",
+            "file": "Crayon Shin-Chan - Ora to Poi Poi.zip"
+        },
+        {
+            "name": "Crazy Climber",
+            "file": "Crazy Climber.zip"
+        },
+        {
+            "name": "Creatom",
+            "file": "Creatom.zip"
+        },
+        {
+            "name": "Crisis Force",
+            "file": "Crisis Force.zip"
+        },
+        {
+            "name": "Cross Fire",
+            "file": "Cross Fire.zip"
+        },
+        {
+            "name": "Crystal Mines",
+            "file": "Crystal Mines.zip"
+        },
+        {
+            "name": "Crystalis",
+            "file": "Crystalis.zip"
+        },
+        {
+            "name": "Cyberball",
+            "file": "Cyberball.zip"
+        },
+        {
+            "name": "Cybernoid - The Fighting Machine",
+            "file": "Cybernoid - The Fighting Machine.zip"
+        },
+        {
+            "name": "Cycle Race - Road Man",
+            "file": "Cycle Race - Road Man.zip"
+        },
+        {
+            "name": "D-Pad Hero",
+            "file": "D-Pad Hero.zip"
+        },
+        {
+            "name": "Daiku no Gen San II",
+            "file": "Daiku no Gen San II.zip"
+        },
+        {
+            "name": "Daisenryaku",
+            "file": "Daisenryaku.zip"
+        },
+        {
+            "name": "Dan's Dodgeball I",
+            "file": "Dan's Dodgeball I.zip"
+        },
+        {
+            "name": "Dan's Dodgeball II",
+            "file": "Dan's Dodgeball II.zip"
+        },
+        {
+            "name": "Dance Aerobics",
+            "file": "Dance Aerobics.zip"
+        },
+        {
+            "name": "Dance Xtreme - Prima",
+            "file": "Dance Xtreme - Prima.zip"
+        },
+        {
+            "name": "Dancing Blocks",
+            "file": "Dancing Blocks.zip"
+        },
+        {
+            "name": "Danny Sullivan's Indy Heat",
+            "file": "Danny Sullivan's Indy Heat.zip"
+        },
+        {
+            "name": "Dark Lord",
+            "file": "Dark Lord.zip"
+        },
+        {
+            "name": "Darkman",
+            "file": "Darkman.zip"
+        },
+        {
+            "name": "Darkwing Duck II",
+            "file": "Darkwing Duck II.zip"
+        },
+        {
+            "name": "Darkwing Duck",
+            "file": "Darkwing Duck.zip"
+        },
+        {
+            "name": "Dash Galaxy in the Alien Asylum",
+            "file": "Dash Galaxy in the Alien Asylum.zip"
+        },
+        {
+            "name": "Day Dreamin' Davey",
+            "file": "Day Dreamin' Davey.zip"
+        },
+        {
+            "name": "Days of Thunder",
+            "file": "Days of Thunder.zip"
+        },
+        {
+            "name": "De-Block",
+            "file": "De-Block.zip"
+        },
+        {
+            "name": "Deadly Towers",
+            "file": "Deadly Towers.zip"
+        },
+        {
+            "name": "Death Race",
+            "file": "Death Race.zip"
+        },
+        {
+            "name": "Deathbots",
+            "file": "Deathbots.zip"
+        },
+        {
+            "name": "Decathlon",
+            "file": "Decathlon.zip"
+        },
+        {
+            "name": "Deep Dungeon IV",
+            "file": "Deep Dungeon IV.zip"
+        },
+        {
+            "name": "Defender II",
+            "file": "Defender II.zip"
+        },
+        {
+            "name": "Defender of the Crown",
+            "file": "Defender of the Crown.zip"
+        },
+        {
+            "name": "Defenders of Dynatron City",
+            "file": "Defenders of Dynatron City.zip"
+        },
+        {
+            "name": "Deja Vu",
+            "file": "Deja Vu.zip"
+        },
+        {
+            "name": "Demon Sword - Release the Power",
+            "file": "Demon Sword - Release the Power.zip"
+        },
+        {
+            "name": "Derecive Solbrain",
+            "file": "Derecive Solbrain.zip"
+        },
+        {
+            "name": "Desert Commander",
+            "file": "Desert Commander.zip"
+        },
+        {
+            "name": "Destination Earthstar",
+            "file": "Destination Earthstar.zip"
+        },
+        {
+            "name": "Destiny of an Emperor II",
+            "file": "Destiny of an Emperor II.zip"
+        },
+        {
+            "name": "Destiny of an Emperor",
+            "file": "Destiny of an Emperor.zip"
+        },
+        {
+            "name": "Devil Man",
+            "file": "Devil Man.zip"
+        },
+        {
+            "name": "Devil World",
+            "file": "Devil World.zip"
+        },
+        {
+            "name": "Dezaemon",
+            "file": "Dezaemon.zip"
+        },
+        {
+            "name": "Dian Shi Ma Li (Mario Lottery)",
+            "file": "Dian Shi Ma Li (Mario Lottery).zip"
+        },
+        {
+            "name": "Dick Tracy",
+            "file": "Dick Tracy.zip"
+        },
+        {
+            "name": "Die Hard",
+            "file": "Die Hard.zip"
+        },
+        {
+            "name": "Dig Dug I",
+            "file": "Dig Dug I.zip"
+        },
+        {
+            "name": "Dig Dug II - Trouble in Paradise",
+            "file": "Dig Dug II - Trouble in Paradise.zip"
+        },
+        {
+            "name": "Digger - The Legend of the Lost City",
+            "file": "Digger - The Legend of the Lost City.zip"
+        },
+        {
+            "name": "Dikki Paingun in - TKO For The Third Reich",
+            "file": "Dikki Paingun in - TKO For The Third Reich.zip"
+        },
+        {
+            "name": "Dirty Harry",
+            "file": "Dirty Harry.zip"
+        },
+        {
+            "name": "Dizzy The Adventurer",
+            "file": "Dizzy The Adventurer.zip"
+        },
+        {
+            "name": "Don Doko Don I",
+            "file": "Don Doko Don I.zip"
+        },
+        {
+            "name": "Don Doko Don II",
+            "file": "Don Doko Don II.zip"
+        },
+        {
+            "name": "Donald Land",
+            "file": "Donald Land.zip"
+        },
+        {
+            "name": "Donald Magic (Burger Time)",
+            "file": "Donald Magic (Burger Time).zip"
+        },
+        {
+            "name": "Donkey Kong Classics",
+            "file": "Donkey Kong Classics.zip"
+        },
+        {
+            "name": "Donkey Kong Country IV",
+            "file": "Donkey Kong Country IV.zip"
+        },
+        {
+            "name": "Donkey Kong I",
+            "file": "Donkey Kong I.zip"
+        },
+        {
+            "name": "Donkey Kong II - Donkey Kong Jr",
+            "file": "Donkey Kong II - Donkey Kong Jr.zip"
+        },
+        {
+            "name": "Donkey Kong III",
+            "file": "Donkey Kong III.zip"
+        },
+        {
+            "name": "Donkey Kong Jr Math",
+            "file": "Donkey Kong Jr Math.zip"
+        },
+        {
+            "name": "Door Door",
+            "file": "Door Door.zip"
+        },
+        {
+            "name": "Doraemon - The Revenge of Giga Zombie",
+            "file": "Doraemon - The Revenge of Giga Zombie.zip"
+        },
+        {
+            "name": "Doraemon",
+            "file": "Doraemon.zip"
+        },
+        {
+            "name": "Double Dare",
+            "file": "Double Dare.zip"
+        },
+        {
+            "name": "Double Dragon I",
+            "file": "Double Dragon I.zip"
+        },
+        {
+            "name": "Double Dragon II - The Revenge",
+            "file": "Double Dragon II - The Revenge.zip"
+        },
+        {
+            "name": "Double Dragon III - The Sacred Stones",
+            "file": "Double Dragon III - The Sacred Stones.zip"
+        },
+        {
+            "name": "Double Dragon IV",
+            "file": "Double Dragon IV.zip"
+        },
+        {
+            "name": "Double Dribble",
+            "file": "Double Dribble.zip"
+        },
+        {
+            "name": "Double Strike - Aerial Attack Force",
+            "file": "Double Strike - Aerial Attack Force.zip"
+        },
+        {
+            "name": "Dough Boy",
+            "file": "Dough Boy.zip"
+        },
+        {
+            "name": "Downtown",
+            "file": "Downtown.zip"
+        },
+        {
+            "name": "Dr Chaos",
+            "file": "Dr Chaos.zip"
+        },
+        {
+            "name": "Dr Jekyll and Mr Hyde",
+            "file": "Dr Jekyll and Mr Hyde.zip"
+        },
+        {
+            "name": "Dr Mario",
+            "file": "Dr Mario.zip"
+        },
+        {
+            "name": "Drac's Night Out",
+            "file": "Drac's Night Out.zip"
+        },
+        {
+            "name": "Dragon Ball - Dragon Mystery",
+            "file": "Dragon Ball - Dragon Mystery.zip"
+        },
+        {
+            "name": "Dragon Ball Z - Assault of the Saiyans",
+            "file": "Dragon Ball Z - Assault of the Saiyans.zip"
+        },
+        {
+            "name": "Dragon Ball Z Gaiden",
+            "file": "Dragon Ball Z Gaiden.zip"
+        },
+        {
+            "name": "Dragon Ball Z III - Killer Androids",
+            "file": "Dragon Ball Z III - Killer Androids.zip"
+        },
+        {
+            "name": "Dragon Buster I",
+            "file": "Dragon Buster I.zip"
+        },
+        {
+            "name": "Dragon Buster II - Seal of Darkness",
+            "file": "Dragon Buster II - Seal of Darkness.zip"
+        },
+        {
+            "name": "Dragon Fighter",
+            "file": "Dragon Fighter.zip"
+        },
+        {
+            "name": "Dragon Power",
+            "file": "Dragon Power.zip"
+        },
+        {
+            "name": "Dragon Scroll - Resurrection of Demon",
+            "file": "Dragon Scroll - Resurrection of Demon.zip"
+        },
+        {
+            "name": "Dragon Slayer Jr - Romancia",
+            "file": "Dragon Slayer Jr - Romancia.zip"
+        },
+        {
+            "name": "Dragon Spirit - The New Legend",
+            "file": "Dragon Spirit - The New Legend.zip"
+        },
+        {
+            "name": "Dragon Warrior I",
+            "file": "Dragon Warrior I.zip"
+        },
+        {
+            "name": "Dragon Warrior II",
+            "file": "Dragon Warrior II.zip"
+        },
+        {
+            "name": "Dragon Warrior III",
+            "file": "Dragon Warrior III.zip"
+        },
+        {
+            "name": "Dragon Warrior IV",
+            "file": "Dragon Warrior IV.zip"
+        },
+        {
+            "name": "Dragon Wars",
+            "file": "Dragon Wars.zip"
+        },
+        {
+            "name": "Dragon's Lair",
+            "file": "Dragon's Lair.zip"
+        },
+        {
+            "name": "Dragon",
+            "file": "Dragon.zip"
+        },
+        {
+            "name": "Dream Penguin Adventure",
+            "file": "Dream Penguin Adventure.zip"
+        },
+        {
+            "name": "Dropzone",
+            "file": "Dropzone.zip"
+        },
+        {
+            "name": "Duck Hunt",
+            "file": "Duck Hunt.zip"
+        },
+        {
+            "name": "Duck Maze",
+            "file": "Duck Maze.zip"
+        },
+        {
+            "name": "Duck Tales I",
+            "file": "Duck Tales I.zip"
+        },
+        {
+            "name": "Duck Tales II",
+            "file": "Duck Tales II.zip"
+        },
+        {
+            "name": "Dudes With Attitude",
+            "file": "Dudes With Attitude.zip"
+        },
+        {
+            "name": "Dungeon Magic - Sword of the Elements",
+            "file": "Dungeon Magic - Sword of the Elements.zip"
+        },
+        {
+            "name": "Dusty Diamond's All-Star Softball",
+            "file": "Dusty Diamond's All-Star Softball.zip"
+        },
+        {
+            "name": "Dynamite Bowl",
+            "file": "Dynamite Bowl.zip"
+        },
+        {
+            "name": "Dynowarz - Destruction of Spondylus",
+            "file": "Dynowarz - Destruction of Spondylus.zip"
+        },
+        {
+            "name": "Earth Bound",
+            "file": "Earth Bound.zip"
+        },
+        {
+            "name": "EarthWorm Jim II",
+            "file": "EarthWorm Jim II.zip"
+        },
+        {
+            "name": "EarthWorm Jim III",
+            "file": "EarthWorm Jim III.zip"
+        },
+        {
+            "name": "Eggerland - Revival of the Labyrinth",
+            "file": "Eggerland - Revival of the Labyrinth.zip"
+        },
+        {
+            "name": "Egypt",
+            "file": "Egypt.zip"
+        },
+        {
+            "name": "Elevator Action",
+            "file": "Elevator Action.zip"
+        },
+        {
+            "name": "Eliminator Boat Duel",
+            "file": "Eliminator Boat Duel.zip"
+        },
+        {
+            "name": "Elite",
+            "file": "Elite.zip"
+        },
+        {
+            "name": "Elysion",
+            "file": "Elysion.zip"
+        },
+        {
+            "name": "Erunaaku no Zaihou",
+            "file": "Erunaaku no Zaihou.zip"
+        },
+        {
+            "name": "Escape From Atlantis",
+            "file": "Escape From Atlantis.zip"
+        },
+        {
+            "name": "Esper Bouken Tai",
+            "file": "Esper Bouken Tai.zip"
+        },
+        {
+            "name": "Esper Dream II",
+            "file": "Esper Dream II.zip"
+        },
+        {
+            "name": "Evert & Lendl Top Player's Tennis",
+            "file": "Evert & Lendl Top Player's Tennis.zip"
+        },
+        {
+            "name": "Excitebike",
+            "file": "Excitebike.zip"
+        },
+        {
+            "name": "Exciting Boxing",
+            "file": "Exciting Boxing.zip"
+        },
+        {
+            "name": "Exed Exes",
+            "file": "Exed Exes.zip"
+        },
+        {
+            "name": "Exerion II",
+            "file": "Exerion II.zip"
+        },
+        {
+            "name": "Exerion",
+            "file": "Exerion.zip"
+        },
+        {
+            "name": "Exodus",
+            "file": "Exodus.zip"
+        },
+        {
+            "name": "F-117a Stealth Fighter",
+            "file": "F-117a Stealth Fighter.zip"
+        },
+        {
+            "name": "F-15 City War",
+            "file": "F-15 City War.zip"
+        },
+        {
+            "name": "F-15 Strike Eagle",
+            "file": "F-15 Strike Eagle.zip"
+        },
+        {
+            "name": "F1 Circus",
+            "file": "F1 Circus.zip"
+        },
+        {
+            "name": "F1 Race",
+            "file": "F1 Race.zip"
+        },
+        {
+            "name": "Facemaker (Dr PC Jr)",
+            "file": "Facemaker (Dr PC Jr).zip"
+        },
+        {
+            "name": "Famicom Shougi - Ryuuousen",
+            "file": "Famicom Shougi - Ryuuousen.zip"
+        },
+        {
+            "name": "Famicom Wars",
+            "file": "Famicom Wars.zip"
+        },
+        {
+            "name": "Family Circuit '91",
+            "file": "Family Circuit '91.zip"
+        },
+        {
+            "name": "Family Feud",
+            "file": "Family Feud.zip"
+        },
+        {
+            "name": "Fantastic Adventures of Dizzy",
+            "file": "Fantastic Adventures of Dizzy.zip"
+        },
+        {
+            "name": "Fantasy Zone I (Japan)",
+            "file": "Fantasy Zone I (Japan).zip"
+        },
+        {
+            "name": "Fantasy Zone II - Teardrop of Opa-Opa",
+            "file": "Fantasy Zone II - Teardrop of Opa-Opa.zip"
+        },
+        {
+            "name": "Fantasy Zone",
+            "file": "Fantasy Zone.zip"
+        },
+        {
+            "name": "Faria",
+            "file": "Faria.zip"
+        },
+        {
+            "name": "Fatal Fury II",
+            "file": "Fatal Fury II.zip"
+        },
+        {
+            "name": "Faxanadu",
+            "file": "Faxanadu.zip"
+        },
+        {
+            "name": "Felix the Cat",
+            "file": "Felix the Cat.zip"
+        },
+        {
+            "name": "Felix vs Jerry",
+            "file": "Felix vs Jerry.zip"
+        },
+        {
+            "name": "Ferrari Grand Prix Challenge",
+            "file": "Ferrari Grand Prix Challenge.zip"
+        },
+        {
+            "name": "Field Combat",
+            "file": "Field Combat.zip"
+        },
+        {
+            "name": "FIFA '97 International Soccer",
+            "file": "FIFA '97 International Soccer.zip"
+        },
+        {
+            "name": "FIFA 96 International Soccer",
+            "file": "FIFA 96 International Soccer.zip"
+        },
+        {
+            "name": "Fighting Hero",
+            "file": "Fighting Hero.zip"
+        },
+        {
+            "name": "Fighting Road",
+            "file": "Fighting Road.zip"
+        },
+        {
+            "name": "Final Combat",
+            "file": "Final Combat.zip"
+        },
+        {
+            "name": "Final Fantasy I & II",
+            "file": "Final Fantasy I & II.zip"
+        },
+        {
+            "name": "Final Fantasy I",
+            "file": "Final Fantasy I.zip"
+        },
+        {
+            "name": "Final Fantasy II",
+            "file": "Final Fantasy II.zip"
+        },
+        {
+            "name": "Final Fantasy III",
+            "file": "Final Fantasy III.zip"
+        },
+        {
+            "name": "Final Fight III",
+            "file": "Final Fight III.zip"
+        },
+        {
+            "name": "Final Lap",
+            "file": "Final Lap.zip"
+        },
+        {
+            "name": "Final Mission",
+            "file": "Final Mission.zip"
+        },
+        {
+            "name": "Fire 'n Ice",
+            "file": "Fire 'n Ice.zip"
+        },
+        {
+            "name": "Fire Dragon",
+            "file": "Fire Dragon.zip"
+        },
+        {
+            "name": "Fire Emblem Gaiden",
+            "file": "Fire Emblem Gaiden.zip"
+        },
+        {
+            "name": "Fire Hawk",
+            "file": "Fire Hawk.zip"
+        },
+        {
+            "name": "Fisher Price - Firehouse Rescue",
+            "file": "Fisher Price - Firehouse Rescue.zip"
+        },
+        {
+            "name": "Fisher Price - I Can Remember",
+            "file": "Fisher Price - I Can Remember.zip"
+        },
+        {
+            "name": "Fisher Price - Perfect Fit",
+            "file": "Fisher Price - Perfect Fit.zip"
+        },
+        {
+            "name": "Fist of the North Star",
+            "file": "Fist of the North Star.zip"
+        },
+        {
+            "name": "Flappy",
+            "file": "Flappy.zip"
+        },
+        {
+            "name": "Flight of the Intruder",
+            "file": "Flight of the Intruder.zip"
+        },
+        {
+            "name": "Flintstones I",
+            "file": "Flintstones I.zip"
+        },
+        {
+            "name": "Flintstones II",
+            "file": "Flintstones II.zip"
+        },
+        {
+            "name": "Flipull - Cube Game",
+            "file": "Flipull - Cube Game.zip"
+        },
+        {
+            "name": "Flying Dragon - The Secret Scroll",
+            "file": "Flying Dragon - The Secret Scroll.zip"
+        },
+        {
+            "name": "Flying Hero",
+            "file": "Flying Hero.zip"
+        },
+        {
+            "name": "Flying Warriors",
+            "file": "Flying Warriors.zip"
+        },
+        {
+            "name": "Formation Z",
+            "file": "Formation Z.zip"
+        },
+        {
+            "name": "Formula One Built To Win",
+            "file": "Formula One Built To Win.zip"
+        },
+        {
+            "name": "Formula One Sensation",
+            "file": "Formula One Sensation.zip"
+        },
+        {
+            "name": "Frankenstein - The Monster Returns",
+            "file": "Frankenstein - The Monster Returns.zip"
+        },
+        {
+            "name": "Free Fall",
+            "file": "Free Fall.zip"
+        },
+        {
+            "name": "Freedom Force",
+            "file": "Freedom Force.zip"
+        },
+        {
+            "name": "Friday the 13th",
+            "file": "Friday the 13th.zip"
+        },
+        {
+            "name": "Front Line",
+            "file": "Front Line.zip"
+        },
+        {
+            "name": "Fun House",
+            "file": "Fun House.zip"
+        },
+        {
+            "name": "Futebol",
+            "file": "Futebol.zip"
+        },
+        {
+            "name": "Future Soldier - Lios",
+            "file": "Future Soldier - Lios.zip"
+        },
+        {
+            "name": "Fuzzical Fighter",
+            "file": "Fuzzical Fighter.zip"
+        },
+        {
+            "name": "Gaiapolis",
+            "file": "Gaiapolis.zip"
+        },
+        {
+            "name": "Galactic Crusader",
+            "file": "Galactic Crusader.zip"
+        },
+        {
+            "name": "Galaga",
+            "file": "Galaga.zip"
+        },
+        {
+            "name": "Galaxian",
+            "file": "Galaxian.zip"
+        },
+        {
+            "name": "Galaxy 5000",
+            "file": "Galaxy 5000.zip"
+        },
+        {
+            "name": "Galaxy NES",
+            "file": "Galaxy NES.zip"
+        },
+        {
+            "name": "Galaxy Patrol Enhanced",
+            "file": "Galaxy Patrol Enhanced.zip"
+        },
+        {
+            "name": "Game of Life",
+            "file": "Game of Life.zip"
+        },
+        {
+            "name": "Game Party",
+            "file": "Game Party.zip"
+        },
+        {
+            "name": "Game",
+            "file": "Game.zip"
+        },
+        {
+            "name": "Ganbare Goemon II",
+            "file": "Ganbare Goemon II.zip"
+        },
+        {
+            "name": "Ganbare Goemon!",
+            "file": "Ganbare Goemon!.zip"
+        },
+        {
+            "name": "Garfield - A Week of Garfield",
+            "file": "Garfield - A Week of Garfield.zip"
+        },
+        {
+            "name": "Gargoyle's Quest II",
+            "file": "Gargoyle's Quest II.zip"
+        },
+        {
+            "name": "Garou Densetsu Special",
+            "file": "Garou Densetsu Special.zip"
+        },
+        {
+            "name": "Gauntlet I",
+            "file": "Gauntlet I.zip"
+        },
+        {
+            "name": "Gauntlet II",
+            "file": "Gauntlet II.zip"
+        },
+        {
+            "name": "Geimos",
+            "file": "Geimos.zip"
+        },
+        {
+            "name": "Gekitotsu Yonku Battle",
+            "file": "Gekitotsu Yonku Battle.zip"
+        },
+        {
+            "name": "Gemfire",
+            "file": "Gemfire.zip"
+        },
+        {
+            "name": "Genghis Khan",
+            "file": "Genghis Khan.zip"
+        },
+        {
+            "name": "George Foreman's KO Boxing",
+            "file": "George Foreman's KO Boxing.zip"
+        },
+        {
+            "name": "Getsufuu Maden",
+            "file": "Getsufuu Maden.zip"
+        },
+        {
+            "name": "Ghost Hunter",
+            "file": "Ghost Hunter.zip"
+        },
+        {
+            "name": "Ghostbusters I",
+            "file": "Ghostbusters I.zip"
+        },
+        {
+            "name": "Ghostbusters II",
+            "file": "Ghostbusters II.zip"
+        },
+        {
+            "name": "Ghosts'n Goblins",
+            "file": "Ghosts'n Goblins.zip"
+        },
+        {
+            "name": "Ghoul School",
+            "file": "Ghoul School.zip"
+        },
+        {
+            "name": "GI Joe - The Atlantis Factor",
+            "file": "GI Joe - The Atlantis Factor.zip"
+        },
+        {
+            "name": "GI Joe",
+            "file": "GI Joe.zip"
+        },
+        {
+            "name": "Gilligan's Island",
+            "file": "Gilligan's Island.zip"
+        },
+        {
+            "name": "Glory of Heracles II - Titans Downfall",
+            "file": "Glory of Heracles II - Titans Downfall.zip"
+        },
+        {
+            "name": "Go! Benny!",
+            "file": "Go! Benny!.zip"
+        },
+        {
+            "name": "Goal! I",
+            "file": "Goal! I.zip"
+        },
+        {
+            "name": "Goal! II",
+            "file": "Goal! II.zip"
+        },
+        {
+            "name": "Godzilla I - Monster of Monsters!",
+            "file": "Godzilla I - Monster of Monsters!.zip"
+        },
+        {
+            "name": "Godzilla II - War of the Monsters",
+            "file": "Godzilla II - War of the Monsters.zip"
+        },
+        {
+            "name": "Gold Medal Challenge '92",
+            "file": "Gold Medal Challenge '92.zip"
+        },
+        {
+            "name": "Golf '92",
+            "file": "Golf '92.zip"
+        },
+        {
+            "name": "Golf Club - Birdy Rush",
+            "file": "Golf Club - Birdy Rush.zip"
+        },
+        {
+            "name": "Golf Grand Slam",
+            "file": "Golf Grand Slam.zip"
+        },
+        {
+            "name": "Golf",
+            "file": "Golf.zip"
+        },
+        {
+            "name": "Golgo 13 - Top Secret Episode",
+            "file": "Golgo 13 - Top Secret Episode.zip"
+        },
+        {
+            "name": "Goonies II",
+            "file": "Goonies II.zip"
+        },
+        {
+            "name": "Goonies",
+            "file": "Goonies.zip"
+        },
+        {
+            "name": "Gorby's Pipeline - Great Millitary Op",
+            "file": "Gorby's Pipeline - Great Millitary Op.zip"
+        },
+        {
+            "name": "Gotcha!",
+            "file": "Gotcha!.zip"
+        },
+        {
+            "name": "Gourmet",
+            "file": "Gourmet.zip"
+        },
+        {
+            "name": "Gradius II",
+            "file": "Gradius II.zip"
+        },
+        {
+            "name": "Gradius",
+            "file": "Gradius.zip"
+        },
+        {
+            "name": "Grand Master",
+            "file": "Grand Master.zip"
+        },
+        {
+            "name": "Gravity Armor Metal Storm",
+            "file": "Gravity Armor Metal Storm.zip"
+        },
+        {
+            "name": "Great Battle Cyber",
+            "file": "Great Battle Cyber.zip"
+        },
+        {
+            "name": "Great Deal",
+            "file": "Great Deal.zip"
+        },
+        {
+            "name": "Great Maze - Master of the Maze",
+            "file": "Great Maze - Master of the Maze.zip"
+        },
+        {
+            "name": "Great Waldo Search",
+            "file": "Great Waldo Search.zip"
+        },
+        {
+            "name": "Great Wall",
+            "file": "Great Wall.zip"
+        },
+        {
+            "name": "Greg Norman's Golf Power",
+            "file": "Greg Norman's Golf Power.zip"
+        },
+        {
+            "name": "Gremlins II - The New Batch",
+            "file": "Gremlins II - The New Batch.zip"
+        },
+        {
+            "name": "Guardian Legend",
+            "file": "Guardian Legend.zip"
+        },
+        {
+            "name": "Guerrilla War",
+            "file": "Guerrilla War.zip"
+        },
+        {
+            "name": "Gumshoe",
+            "file": "Gumshoe.zip"
+        },
+        {
+            "name": "Gun Nac",
+            "file": "Gun Nac.zip"
+        },
+        {
+            "name": "Gun Smoke",
+            "file": "Gun Smoke.zip"
+        },
+        {
+            "name": "Gyrodine",
+            "file": "Gyrodine.zip"
+        },
+        {
+            "name": "Gyromite",
+            "file": "Gyromite.zip"
+        },
+        {
+            "name": "Gyruss",
+            "file": "Gyruss.zip"
+        },
+        {
+            "name": "Hacker",
+            "file": "Hacker.zip"
+        },
+        {
+            "name": "Hammerin' Harry",
+            "file": "Hammerin' Harry.zip"
+        },
+        {
+            "name": "Harlem Globetrotters",
+            "file": "Harlem Globetrotters.zip"
+        },
+        {
+            "name": "Harry Story",
+            "file": "Harry Story.zip"
+        },
+        {
+            "name": "Harry's Legend",
+            "file": "Harry's Legend.zip"
+        },
+        {
+            "name": "Hatris",
+            "file": "Hatris.zip"
+        },
+        {
+            "name": "Heavy Barrel",
+            "file": "Heavy Barrel.zip"
+        },
+        {
+            "name": "Heavy Shreddin'",
+            "file": "Heavy Shreddin'.zip"
+        },
+        {
+            "name": "Heisei Tensai Bakabon",
+            "file": "Heisei Tensai Bakabon.zip"
+        },
+        {
+            "name": "Hell Fighter",
+            "file": "Hell Fighter.zip"
+        },
+        {
+            "name": "Hello Kitty World",
+            "file": "Hello Kitty World.zip"
+        },
+        {
+            "name": "Hello Kitty's Flower Shop",
+            "file": "Hello Kitty's Flower Shop.zip"
+        },
+        {
+            "name": "Hero of the Sun - Fire Bird",
+            "file": "Hero of the Sun - Fire Bird.zip"
+        },
+        {
+            "name": "Hero Quest",
+            "file": "Hero Quest.zip"
+        },
+        {
+            "name": "High Speed",
+            "file": "High Speed.zip"
+        },
+        {
+            "name": "Hirake! Ponkikki",
+            "file": "Hirake! Ponkikki.zip"
+        },
+        {
+            "name": "Hit Marmot",
+            "file": "Hit Marmot.zip"
+        },
+        {
+            "name": "Hit the Ice",
+            "file": "Hit the Ice.zip"
+        },
+        {
+            "name": "Hogan's Alley",
+            "file": "Hogan's Alley.zip"
+        },
+        {
+            "name": "Hokuto no Ken",
+            "file": "Hokuto no Ken.zip"
+        },
+        {
+            "name": "Hollywood Squares",
+            "file": "Hollywood Squares.zip"
+        },
+        {
+            "name": "Holy Diver",
+            "file": "Holy Diver.zip"
+        },
+        {
+            "name": "Home Alone I",
+            "file": "Home Alone I.zip"
+        },
+        {
+            "name": "Home Alone II - Lost In New York",
+            "file": "Home Alone II - Lost In New York.zip"
+        },
+        {
+            "name": "Hook",
+            "file": "Hook.zip"
+        },
+        {
+            "name": "Hoops",
+            "file": "Hoops.zip"
+        },
+        {
+            "name": "Hoppin' Mad",
+            "file": "Hoppin' Mad.zip"
+        },
+        {
+            "name": "Hotman",
+            "file": "Hotman.zip"
+        },
+        {
+            "name": "Huang Di",
+            "file": "Huang Di.zip"
+        },
+        {
+            "name": "Hudson Hawk",
+            "file": "Hudson Hawk.zip"
+        },
+        {
+            "name": "Huge Insect",
+            "file": "Huge Insect.zip"
+        },
+        {
+            "name": "Hunt For Red October",
+            "file": "Hunt For Red October.zip"
+        },
+        {
+            "name": "Hydlide Special",
+            "file": "Hydlide Special.zip"
+        },
+        {
+            "name": "Hydlide",
+            "file": "Hydlide.zip"
+        },
+        {
+            "name": "Hyper Sports",
+            "file": "Hyper Sports.zip"
+        },
+        {
+            "name": "I'm Kid Dracula",
+            "file": "I'm Kid Dracula.zip"
+        },
+        {
+            "name": "Ice Climber",
+            "file": "Ice Climber.zip"
+        },
+        {
+            "name": "Ice Hockey",
+            "file": "Ice Hockey.zip"
+        },
+        {
+            "name": "Ikari Warriors I",
+            "file": "Ikari Warriors I.zip"
+        },
+        {
+            "name": "Ikari Warriors II - Victory Road",
+            "file": "Ikari Warriors II - Victory Road.zip"
+        },
+        {
+            "name": "Ikari Warriors III - The Rescue",
+            "file": "Ikari Warriors III - The Rescue.zip"
+        },
+        {
+            "name": "Ikinari Musician",
+            "file": "Ikinari Musician.zip"
+        },
+        {
+            "name": "Ikki",
+            "file": "Ikki.zip"
+        },
+        {
+            "name": "Image Fight",
+            "file": "Image Fight.zip"
+        },
+        {
+            "name": "Immortal",
+            "file": "Immortal.zip"
+        },
+        {
+            "name": "Impossible Mission II",
+            "file": "Impossible Mission II.zip"
+        },
+        {
+            "name": "Incredible Crash Dummies",
+            "file": "Incredible Crash Dummies.zip"
+        },
+        {
+            "name": "Indiana Jones & the Last Crusade",
+            "file": "Indiana Jones & the Last Crusade.zip"
+        },
+        {
+            "name": "Indiana Jones and the Last Crusade (U)",
+            "file": "Indiana Jones and the Last Crusade (U).zip"
+        },
+        {
+            "name": "Indiana Jones and the Temple of Doom",
+            "file": "Indiana Jones and the Temple of Doom.zip"
+        },
+        {
+            "name": "Infiltrator",
+            "file": "Infiltrator.zip"
+        },
+        {
+            "name": "Insector X",
+            "file": "Insector X.zip"
+        },
+        {
+            "name": "International Cricket",
+            "file": "International Cricket.zip"
+        },
+        {
+            "name": "Iron Tank",
+            "file": "Iron Tank.zip"
+        },
+        {
+            "name": "Isolated Warrior",
+            "file": "Isolated Warrior.zip"
+        },
+        {
+            "name": "Ivan Ironman Stewart's Super Offroad",
+            "file": "Ivan Ironman Stewart's Super Offroad.zip"
+        },
+        {
+            "name": "J-League King of Ace Strikers",
+            "file": "J-League King of Ace Strikers.zip"
+        },
+        {
+            "name": "J-League Super Top Players",
+            "file": "J-League Super Top Players.zip"
+        },
+        {
+            "name": "J-League Winning Goal",
+            "file": "J-League Winning Goal.zip"
+        },
+        {
+            "name": "Jack Nicklaus' Greatest 18 Holes",
+            "file": "Jack Nicklaus' Greatest 18 Holes.zip"
+        },
+        {
+            "name": "Jackal",
+            "file": "Jackal.zip"
+        },
+        {
+            "name": "Jackie Chan's Action Kung Fu",
+            "file": "Jackie Chan's Action Kung Fu.zip"
+        },
+        {
+            "name": "James Bond Jr",
+            "file": "James Bond Jr.zip"
+        },
+        {
+            "name": "Jaws",
+            "file": "Jaws.zip"
+        },
+        {
+            "name": "Jeopardy! 25th Anniversary Edition",
+            "file": "Jeopardy! 25th Anniversary Edition.zip"
+        },
+        {
+            "name": "Jeopardy! Junior Edition",
+            "file": "Jeopardy! Junior Edition.zip"
+        },
+        {
+            "name": "Jeopardy!",
+            "file": "Jeopardy!.zip"
+        },
+        {
+            "name": "Jesus - Kyoufu no Bio Monster",
+            "file": "Jesus - Kyoufu no Bio Monster.zip"
+        },
+        {
+            "name": "Jetsons - Cogswell's Caper!",
+            "file": "Jetsons - Cogswell's Caper!.zip"
+        },
+        {
+            "name": "Jimmy Connor's Tennis",
+            "file": "Jimmy Connor's Tennis.zip"
+        },
+        {
+            "name": "Jin Gwok Sei Chuen Saang",
+            "file": "Jin Gwok Sei Chuen Saang.zip"
+        },
+        {
+            "name": "Joe & Mac",
+            "file": "Joe & Mac.zip"
+        },
+        {
+            "name": "John Elway's Quarterback",
+            "file": "John Elway's Quarterback.zip"
+        },
+        {
+            "name": "Jordan Vs Bird - One On One",
+            "file": "Jordan Vs Bird - One On One.zip"
+        },
+        {
+            "name": "Joshua",
+            "file": "Joshua.zip"
+        },
+        {
+            "name": "Journey to Silius",
+            "file": "Journey to Silius.zip"
+        },
+        {
+            "name": "Journey to the West",
+            "file": "Journey to the West.zip"
+        },
+        {
+            "name": "Joust",
+            "file": "Joust.zip"
+        },
+        {
+            "name": "Jovial Race (Rally X)",
+            "file": "Jovial Race (Rally X).zip"
+        },
+        {
+            "name": "Joy Mech Fight",
+            "file": "Joy Mech Fight.zip"
+        },
+        {
+            "name": "Jumbo Ozaki - Hole in One Professional",
+            "file": "Jumbo Ozaki - Hole in One Professional.zip"
+        },
+        {
+            "name": "Jumpin' Kid",
+            "file": "Jumpin' Kid.zip"
+        },
+        {
+            "name": "Jungle Book",
+            "file": "Jungle Book.zip"
+        },
+        {
+            "name": "Jurassic Boy II",
+            "file": "Jurassic Boy II.zip"
+        },
+        {
+            "name": "Jurassic Park",
+            "file": "Jurassic Park.zip"
+        },
+        {
+            "name": "Just Breed",
+            "file": "Just Breed.zip"
+        },
+        {
+            "name": "Kabuki - Quantum Fighter",
+            "file": "Kabuki - Quantum Fighter.zip"
+        },
+        {
+            "name": "Kamen no Ninja - Akakage",
+            "file": "Kamen no Ninja - Akakage.zip"
+        },
+        {
+            "name": "Kamen no Ninja - Hanamaru",
+            "file": "Kamen no Ninja - Hanamaru.zip"
+        },
+        {
+            "name": "Kantaro the Pyro's Journey",
+            "file": "Kantaro the Pyro's Journey.zip"
+        },
+        {
+            "name": "Karate Champ",
+            "file": "Karate Champ.zip"
+        },
+        {
+            "name": "Karate Kid",
+            "file": "Karate Kid.zip"
+        },
+        {
+            "name": "Karateka",
+            "file": "Karateka.zip"
+        },
+        {
+            "name": "Karnov",
+            "file": "Karnov.zip"
+        },
+        {
+            "name": "Kart Fighter",
+            "file": "Kart Fighter.zip"
+        },
+        {
+            "name": "Kero Kero's Great Big Adventure I",
+            "file": "Kero Kero's Great Big Adventure I.zip"
+        },
+        {
+            "name": "Kero Kero's Great Big Adventure II",
+            "file": "Kero Kero's Great Big Adventure II.zip"
+        },
+        {
+            "name": "Keroppi & Keroleen's Splash Bomb!",
+            "file": "Keroppi & Keroleen's Splash Bomb!.zip"
+        },
+        {
+            "name": "Kick Master",
+            "file": "Kick Master.zip"
+        },
+        {
+            "name": "Kick Off",
+            "file": "Kick Off.zip"
+        },
+        {
+            "name": "Kickle Cubicle",
+            "file": "Kickle Cubicle.zip"
+        },
+        {
+            "name": "Kid Icarus",
+            "file": "Kid Icarus.zip"
+        },
+        {
+            "name": "Kid Klown",
+            "file": "Kid Klown.zip"
+        },
+        {
+            "name": "Kid Kool",
+            "file": "Kid Kool.zip"
+        },
+        {
+            "name": "Kid Niki I - Radical Ninja",
+            "file": "Kid Niki I - Radical Ninja.zip"
+        },
+        {
+            "name": "Kid Nikki II - Karakuri Land",
+            "file": "Kid Nikki II - Karakuri Land.zip"
+        },
+        {
+            "name": "Kid Nikki III",
+            "file": "Kid Nikki III.zip"
+        },
+        {
+            "name": "King Kong Lives",
+            "file": "King Kong Lives.zip"
+        },
+        {
+            "name": "King Neptune's Adventure",
+            "file": "King Neptune's Adventure.zip"
+        },
+        {
+            "name": "King of Fighters '96",
+            "file": "King of Fighters '96.zip"
+        },
+        {
+            "name": "King of Fighters '97",
+            "file": "King of Fighters '97.zip"
+        },
+        {
+            "name": "King of Fighters '99",
+            "file": "King of Fighters '99.zip"
+        },
+        {
+            "name": "King of Kings",
+            "file": "King of Kings.zip"
+        },
+        {
+            "name": "King's Knight",
+            "file": "King's Knight.zip"
+        },
+        {
+            "name": "King's Quest V",
+            "file": "King's Quest V.zip"
+        },
+        {
+            "name": "Kings of the Beach",
+            "file": "Kings of the Beach.zip"
+        },
+        {
+            "name": "Kirby's Adventure",
+            "file": "Kirby's Adventure.zip"
+        },
+        {
+            "name": "Kiteretsu Daihyakka",
+            "file": "Kiteretsu Daihyakka.zip"
+        },
+        {
+            "name": "Kiwi Kraze",
+            "file": "Kiwi Kraze.zip"
+        },
+        {
+            "name": "Klash Ball",
+            "file": "Klash Ball.zip"
+        },
+        {
+            "name": "Klax",
+            "file": "Klax.zip"
+        },
+        {
+            "name": "Knight Rider",
+            "file": "Knight Rider.zip"
+        },
+        {
+            "name": "Knights Of The Zodiac - Final Chapter",
+            "file": "Knights Of The Zodiac - Final Chapter.zip"
+        },
+        {
+            "name": "Knights of the Zodiac",
+            "file": "Knights of the Zodiac.zip"
+        },
+        {
+            "name": "Konami Hyper Soccer",
+            "file": "Konami Hyper Soccer.zip"
+        },
+        {
+            "name": "Krazy Kreatures",
+            "file": "Krazy Kreatures.zip"
+        },
+        {
+            "name": "Krion Conquest",
+            "file": "Krion Conquest.zip"
+        },
+        {
+            "name": "Krusty's Fun House",
+            "file": "Krusty's Fun House.zip"
+        },
+        {
+            "name": "Kung Fu II",
+            "file": "Kung Fu II.zip"
+        },
+        {
+            "name": "Kung Fu",
+            "file": "Kung Fu.zip"
+        },
+        {
+            "name": "Kung-Fu Heroes",
+            "file": "Kung-Fu Heroes.zip"
+        },
+        {
+            "name": "Kunio-Kun's Soccer League",
+            "file": "Kunio-Kun's Soccer League.zip"
+        },
+        {
+            "name": "Kyatto Ninden Teyandee",
+            "file": "Kyatto Ninden Teyandee.zip"
+        },
+        {
+            "name": "L'Empereur",
+            "file": "L'Empereur.zip"
+        },
+        {
+            "name": "Labyrinth",
+            "file": "Labyrinth.zip"
+        },
+        {
+            "name": "Laser Invasion",
+            "file": "Laser Invasion.zip"
+        },
+        {
+            "name": "Last Action Hero",
+            "file": "Last Action Hero.zip"
+        },
+        {
+            "name": "Last Ninja",
+            "file": "Last Ninja.zip"
+        },
+        {
+            "name": "Last Starfighter",
+            "file": "Last Starfighter.zip"
+        },
+        {
+            "name": "Layla",
+            "file": "Layla.zip"
+        },
+        {
+            "name": "Lee Trevino's Fighting Golf",
+            "file": "Lee Trevino's Fighting Golf.zip"
+        },
+        {
+            "name": "Legacy of the Wizard",
+            "file": "Legacy of the Wizard.zip"
+        },
+        {
+            "name": "Legend of Kage",
+            "file": "Legend of Kage.zip"
+        },
+        {
+            "name": "Legend of Prince Valiant",
+            "file": "Legend of Prince Valiant.zip"
+        },
+        {
+            "name": "Legend of Robin Hood",
+            "file": "Legend of Robin Hood.zip"
+        },
+        {
+            "name": "Legend of the Ghost Lion",
+            "file": "Legend of the Ghost Lion.zip"
+        },
+        {
+            "name": "Legend of Zelda",
+            "file": "Legend of Zelda.zip"
+        },
+        {
+            "name": "Legendary Wings",
+            "file": "Legendary Wings.zip"
+        },
+        {
+            "name": "Legends of the Diamond",
+            "file": "Legends of the Diamond.zip"
+        },
+        {
+            "name": "Lemmings",
+            "file": "Lemmings.zip"
+        },
+        {
+            "name": "Lethal Weapon",
+            "file": "Lethal Weapon.zip"
+        },
+        {
+            "name": "Lifeforce",
+            "file": "Lifeforce.zip"
+        },
+        {
+            "name": "Linus Spacehead's Cosmic Crusade",
+            "file": "Linus Spacehead's Cosmic Crusade.zip"
+        },
+        {
+            "name": "Lion King III - Timon and Pumbaa",
+            "file": "Lion King III - Timon and Pumbaa.zip"
+        },
+        {
+            "name": "Lion King",
+            "file": "Lion King.zip"
+        },
+        {
+            "name": "Little Ghosts",
+            "file": "Little Ghosts.zip"
+        },
+        {
+            "name": "Little League Baseball Championship",
+            "file": "Little League Baseball Championship.zip"
+        },
+        {
+            "name": "Little Mermaid",
+            "file": "Little Mermaid.zip"
+        },
+        {
+            "name": "Little Nemo - The Dream Master",
+            "file": "Little Nemo - The Dream Master.zip"
+        },
+        {
+            "name": "Little Ninja Brothers",
+            "file": "Little Ninja Brothers.zip"
+        },
+        {
+            "name": "Little Red Hood",
+            "file": "Little Red Hood.zip"
+        },
+        {
+            "name": "Little Samson",
+            "file": "Little Samson.zip"
+        },
+        {
+            "name": "Locksmith",
+            "file": "Locksmith.zip"
+        },
+        {
+            "name": "Lode Runner",
+            "file": "Lode Runner.zip"
+        },
+        {
+            "name": "Lone Ranger",
+            "file": "Lone Ranger.zip"
+        },
+        {
+            "name": "Loopz",
+            "file": "Loopz.zip"
+        },
+        {
+            "name": "Lost Word of Jenny",
+            "file": "Lost Word of Jenny.zip"
+        },
+        {
+            "name": "Lot Lot",
+            "file": "Lot Lot.zip"
+        },
+        {
+            "name": "Low G Man",
+            "file": "Low G Man.zip"
+        },
+        {
+            "name": "Lu Ye Xian Zong",
+            "file": "Lu Ye Xian Zong.zip"
+        },
+        {
+            "name": "Lucky Bingo 777",
+            "file": "Lucky Bingo 777.zip"
+        },
+        {
+            "name": "Lunar Pool",
+            "file": "Lunar Pool.zip"
+        },
+        {
+            "name": "Lupin the 3rd - Pandora's Legacy",
+            "file": "Lupin the 3rd - Pandora's Legacy.zip"
+        },
+        {
+            "name": "Mach Rider",
+            "file": "Mach Rider.zip"
+        },
+        {
+            "name": "Maniac Mansion [Uncensored]",
+            "file": "Maniac Mansion [Uncensored].zip"
+        },
+        {
+            "name": "Maniac Mansion",
+            "file": "Maniac Mansion.zip"
+        },
+        {
+            "name": "Mappy Kids",
+            "file": "Mappy Kids.zip"
+        },
+        {
+            "name": "Mappy-Land",
+            "file": "Mappy-Land.zip"
+        },
+        {
+            "name": "Mappy",
+            "file": "Mappy.zip"
+        },
+        {
+            "name": "Marble Madness",
+            "file": "Marble Madness.zip"
+        },
+        {
+            "name": "Mari Street Fighter III Turbo",
+            "file": "Mari Street Fighter III Turbo.zip"
+        },
+        {
+            "name": "Mario Bros",
+            "file": "Mario Bros.zip"
+        },
+        {
+            "name": "Mario Is Missing!",
+            "file": "Mario Is Missing!.zip"
+        },
+        {
+            "name": "Mario's Time Machine!",
+            "file": "Mario's Time Machine!.zip"
+        },
+        {
+            "name": "Marvel's X-Men",
+            "file": "Marvel's X-Men.zip"
+        },
+        {
+            "name": "Masmix",
+            "file": "Masmix.zip"
+        },
+        {
+            "name": "Master Chu & The Drunkard Hu",
+            "file": "Master Chu & The Drunkard Hu.zip"
+        },
+        {
+            "name": "Master Fighter II",
+            "file": "Master Fighter II.zip"
+        },
+        {
+            "name": "Maze of Galious",
+            "file": "Maze of Galious.zip"
+        },
+        {
+            "name": "MC Kids",
+            "file": "MC Kids.zip"
+        },
+        {
+            "name": "Mechanized Attack",
+            "file": "Mechanized Attack.zip"
+        },
+        {
+            "name": "Mega Man I",
+            "file": "Mega Man I.zip"
+        },
+        {
+            "name": "Mega Man II",
+            "file": "Mega Man II.zip"
+        },
+        {
+            "name": "Mega Man III",
+            "file": "Mega Man III.zip"
+        },
+        {
+            "name": "Mega Man IV",
+            "file": "Mega Man IV.zip"
+        },
+        {
+            "name": "Mega Man V",
+            "file": "Mega Man V.zip"
+        },
+        {
+            "name": "Mega Man VI",
+            "file": "Mega Man VI.zip"
+        },
+        {
+            "name": "Menace Beach",
+            "file": "Menace Beach.zip"
+        },
+        {
+            "name": "Mendel Palace",
+            "file": "Mendel Palace.zip"
+        },
+        {
+            "name": "Mermaids of Atlantis",
+            "file": "Mermaids of Atlantis.zip"
+        },
+        {
+            "name": "Metal Fighter",
+            "file": "Metal Fighter.zip"
+        },
+        {
+            "name": "Metal Force",
+            "file": "Metal Force.zip"
+        },
+        {
+            "name": "Metal Gear I",
+            "file": "Metal Gear I.zip"
+        },
+        {
+            "name": "Metal Gear II - Snake's Revenge",
+            "file": "Metal Gear II - Snake's Revenge.zip"
+        },
+        {
+            "name": "Metal Mech",
+            "file": "Metal Mech.zip"
+        },
+        {
+            "name": "Metal Storm",
+            "file": "Metal Storm.zip"
+        },
+        {
+            "name": "Metro-Cross",
+            "file": "Metro-Cross.zip"
+        },
+        {
+            "name": "Metroid",
+            "file": "Metroid.zip"
+        },
+        {
+            "name": "Michael Andretti's World Grand Prix",
+            "file": "Michael Andretti's World Grand Prix.zip"
+        },
+        {
+            "name": "Mickey Mania VII",
+            "file": "Mickey Mania VII.zip"
+        },
+        {
+            "name": "Mickey Mouse - Dream Balloon",
+            "file": "Mickey Mouse - Dream Balloon.zip"
+        },
+        {
+            "name": "Mickey Mousecapade",
+            "file": "Mickey Mousecapade.zip"
+        },
+        {
+            "name": "Mickey's Adventures in Numberland",
+            "file": "Mickey's Adventures in Numberland.zip"
+        },
+        {
+            "name": "Mickey's Safari In Letterland",
+            "file": "Mickey's Safari In Letterland.zip"
+        },
+        {
+            "name": "Micro Machines",
+            "file": "Micro Machines.zip"
+        },
+        {
+            "name": "Middle School English",
+            "file": "Middle School English.zip"
+        },
+        {
+            "name": "Mig-29 Soviet Fighter",
+            "file": "Mig-29 Soviet Fighter.zip"
+        },
+        {
+            "name": "Might and Magic",
+            "file": "Might and Magic.zip"
+        },
+        {
+            "name": "Mighty Atom",
+            "file": "Mighty Atom.zip"
+        },
+        {
+            "name": "Mighty Bomb Jack",
+            "file": "Mighty Bomb Jack.zip"
+        },
+        {
+            "name": "Mighty Final Fight",
+            "file": "Mighty Final Fight.zip"
+        },
+        {
+            "name": "Mighty Morphin' Power Rangers",
+            "file": "Mighty Morphin' Power Rangers.zip"
+        },
+        {
+            "name": "Mike Tyson's Intergalactic Power Punch",
+            "file": "Mike Tyson's Intergalactic Power Punch.zip"
+        },
+        {
+            "name": "Mike Tyson's Punch-Out!!",
+            "file": "Mike Tyson's Punch-Out!!.zip"
+        },
+        {
+            "name": "Millionaire",
+            "file": "Millionaire.zip"
+        },
+        {
+            "name": "Millipede",
+            "file": "Millipede.zip"
+        },
+        {
+            "name": "Milon's Secret Castle",
+            "file": "Milon's Secret Castle.zip"
+        },
+        {
+            "name": "Minesweeper",
+            "file": "Minesweeper.zip"
+        },
+        {
+            "name": "Mini Putt",
+            "file": "Mini Putt.zip"
+        },
+        {
+            "name": "Miracle Piano Teaching System",
+            "file": "Miracle Piano Teaching System.zip"
+        },
+        {
+            "name": "Miracle Ropit's Adventure in 2100",
+            "file": "Miracle Ropit's Adventure in 2100.zip"
+        },
+        {
+            "name": "Mission Cobra",
+            "file": "Mission Cobra.zip"
+        },
+        {
+            "name": "Mission Impossible",
+            "file": "Mission Impossible.zip"
+        },
+        {
+            "name": "Mitsume ga Tooru",
+            "file": "Mitsume ga Tooru.zip"
+        },
+        {
+            "name": "Moai-Kun",
+            "file": "Moai-Kun.zip"
+        },
+        {
+            "name": "Mobile Suit Z Gundam - Hot Scramble",
+            "file": "Mobile Suit Z Gundam - Hot Scramble.zip"
+        },
+        {
+            "name": "Monopoly",
+            "file": "Monopoly.zip"
+        },
+        {
+            "name": "Monster in my Pocket",
+            "file": "Monster in my Pocket.zip"
+        },
+        {
+            "name": "Monster Party",
+            "file": "Monster Party.zip"
+        },
+        {
+            "name": "Monster Truck Rally",
+            "file": "Monster Truck Rally.zip"
+        },
+        {
+            "name": "Moon Crystal",
+            "file": "Moon Crystal.zip"
+        },
+        {
+            "name": "Moon Princess Legend",
+            "file": "Moon Princess Legend.zip"
+        },
+        {
+            "name": "Moon Ranger",
+            "file": "Moon Ranger.zip"
+        },
+        {
+            "name": "Mortal Kombat I",
+            "file": "Mortal Kombat I.zip"
+        },
+        {
+            "name": "Mortal Kombat II Special",
+            "file": "Mortal Kombat II Special.zip"
+        },
+        {
+            "name": "Mortal Kombat II",
+            "file": "Mortal Kombat II.zip"
+        },
+        {
+            "name": "Mortal Kombat III - Extra 60",
+            "file": "Mortal Kombat III - Extra 60.zip"
+        },
+        {
+            "name": "Mortal Kombat III - Special 56 Peoples",
+            "file": "Mortal Kombat III - Special 56 Peoples.zip"
+        },
+        {
+            "name": "Mortal Kombat III Special",
+            "file": "Mortal Kombat III Special.zip"
+        },
+        {
+            "name": "Mortal Kombat III",
+            "file": "Mortal Kombat III.zip"
+        },
+        {
+            "name": "Mortal Kombat IV",
+            "file": "Mortal Kombat IV.zip"
+        },
+        {
+            "name": "Mortal Kombat Trilogy",
+            "file": "Mortal Kombat Trilogy.zip"
+        },
+        {
+            "name": "Mortal Kombat V 1996 Turbo 30 Peoples",
+            "file": "Mortal Kombat V 1996 Turbo 30 Peoples.zip"
+        },
+        {
+            "name": "Most Dangerous Detectives",
+            "file": "Most Dangerous Detectives.zip"
+        },
+        {
+            "name": "Motocross Champion",
+            "file": "Motocross Champion.zip"
+        },
+        {
+            "name": "Motor City Patrol",
+            "file": "Motor City Patrol.zip"
+        },
+        {
+            "name": "Mr Gimmick",
+            "file": "Mr Gimmick.zip"
+        },
+        {
+            "name": "Ms Pac-Man",
+            "file": "Ms Pac-Man.zip"
+        },
+        {
+            "name": "Ms. Pac-Man",
+            "file": "Ms. Pac-Man.zip"
+        },
+        {
+            "name": "MULE",
+            "file": "MULE.zip"
+        },
+        {
+            "name": "Muppet Adventure",
+            "file": "Muppet Adventure.zip"
+        },
+        {
+            "name": "Musashi no Ken",
+            "file": "Musashi no Ken.zip"
+        },
+        {
+            "name": "MUSCLE",
+            "file": "MUSCLE.zip"
+        },
+        {
+            "name": "Mutant Virus",
+            "file": "Mutant Virus.zip"
+        },
+        {
+            "name": "Mystery Quest",
+            "file": "Mystery Quest.zip"
+        },
+        {
+            "name": "Myth Struggle",
+            "file": "Myth Struggle.zip"
+        },
+        {
+            "name": "Nadia - Secret of the Blue Water",
+            "file": "Nadia - Secret of the Blue Water.zip"
+        },
+        {
+            "name": "Nagagutsu wo Haita Neko",
+            "file": "Nagagutsu wo Haita Neko.zip"
+        },
+        {
+            "name": "Nangoku Shirei!! - Spy Vs Spy",
+            "file": "Nangoku Shirei!! - Spy Vs Spy.zip"
+        },
+        {
+            "name": "NARC",
+            "file": "NARC.zip"
+        },
+        {
+            "name": "NES Open Tournament Golf",
+            "file": "NES Open Tournament Golf.zip"
+        },
+        {
+            "name": "NES Play Action Football",
+            "file": "NES Play Action Football.zip"
+        },
+        {
+            "name": "NES Virus Cleaner",
+            "file": "NES Virus Cleaner.zip"
+        },
+        {
+            "name": "New Ghostbusters II",
+            "file": "New Ghostbusters II.zip"
+        },
+        {
+            "name": "NF Ball",
+            "file": "NF Ball.zip"
+        },
+        {
+            "name": "NFL Football",
+            "file": "NFL Football.zip"
+        },
+        {
+            "name": "Nigel Mansell's World Championship",
+            "file": "Nigel Mansell's World Championship.zip"
+        },
+        {
+            "name": "Night Arrow",
+            "file": "Night Arrow.zip"
+        },
+        {
+            "name": "Nightshade",
+            "file": "Nightshade.zip"
+        },
+        {
+            "name": "Ninja Boy II",
+            "file": "Ninja Boy II.zip"
+        },
+        {
+            "name": "Ninja Crusaders",
+            "file": "Ninja Crusaders.zip"
+        },
+        {
+            "name": "Ninja Gaiden I",
+            "file": "Ninja Gaiden I.zip"
+        },
+        {
+            "name": "Ninja Gaiden II",
+            "file": "Ninja Gaiden II.zip"
+        },
+        {
+            "name": "Ninja Gaiden III",
+            "file": "Ninja Gaiden III.zip"
+        },
+        {
+            "name": "Ninja Hattori Kun",
+            "file": "Ninja Hattori Kun.zip"
+        },
+        {
+            "name": "Ninja Jajamaru - Galactic Battle",
+            "file": "Ninja Jajamaru - Galactic Battle.zip"
+        },
+        {
+            "name": "Ninja Jajamaru's Big Adventure",
+            "file": "Ninja Jajamaru's Big Adventure.zip"
+        },
+        {
+            "name": "Ninja Jajamaru-kun",
+            "file": "Ninja Jajamaru-kun.zip"
+        },
+        {
+            "name": "Ninja Jajamaru",
+            "file": "Ninja Jajamaru.zip"
+        },
+        {
+            "name": "Ninja Kid",
+            "file": "Ninja Kid.zip"
+        },
+        {
+            "name": "Ninja-kun - Majou no Bouken",
+            "file": "Ninja-kun - Majou no Bouken.zip"
+        },
+        {
+            "name": "Nintendo Age Halloween 2009",
+            "file": "Nintendo Age Halloween 2009.zip"
+        },
+        {
+            "name": "Nintendo World Championships 1990",
+            "file": "Nintendo World Championships 1990.zip"
+        },
+        {
+            "name": "Nintendo World Cup",
+            "file": "Nintendo World Cup.zip"
+        },
+        {
+            "name": "Noah's Ark",
+            "file": "Noah's Ark.zip"
+        },
+        {
+            "name": "Nobunaga's Ambition I",
+            "file": "Nobunaga's Ambition I.zip"
+        },
+        {
+            "name": "Nobunaga's Ambition II",
+            "file": "Nobunaga's Ambition II.zip"
+        },
+        {
+            "name": "North & South",
+            "file": "North & South.zip"
+        },
+        {
+            "name": "Nuts & Milk",
+            "file": "Nuts & Milk.zip"
+        },
+        {
+            "name": "Olympic IQ",
+            "file": "Olympic IQ.zip"
+        },
+        {
+            "name": "Onyanko Town",
+            "file": "Onyanko Town.zip"
+        },
+        {
+            "name": "Operation Secret Storm",
+            "file": "Operation Secret Storm.zip"
+        },
+        {
+            "name": "Operation Wolf",
+            "file": "Operation Wolf.zip"
+        },
+        {
+            "name": "Orb 3D",
+            "file": "Orb 3D.zip"
+        },
+        {
+            "name": "Othello (HES)",
+            "file": "Othello (HES).zip"
+        },
+        {
+            "name": "Othello",
+            "file": "Othello.zip"
+        },
+        {
+            "name": "Over Horizon",
+            "file": "Over Horizon.zip"
+        },
+        {
+            "name": "Overlord",
+            "file": "Overlord.zip"
+        },
+        {
+            "name": "P'radikus Conflict",
+            "file": "P'radikus Conflict.zip"
+        },
+        {
+            "name": "Paaman - Enban wo Torikaese!!",
+            "file": "Paaman - Enban wo Torikaese!!.zip"
+        },
+        {
+            "name": "Paaman - Part II",
+            "file": "Paaman - Part II.zip"
+        },
+        {
+            "name": "Pac-Land",
+            "file": "Pac-Land.zip"
+        },
+        {
+            "name": "Pac-Man",
+            "file": "Pac-Man.zip"
+        },
+        {
+            "name": "Pac-Mania",
+            "file": "Pac-Mania.zip"
+        },
+        {
+            "name": "Palamedes II - Star Twinkles",
+            "file": "Palamedes II - Star Twinkles.zip"
+        },
+        {
+            "name": "Palamedes",
+            "file": "Palamedes.zip"
+        },
+        {
+            "name": "Panda Prince",
+            "file": "Panda Prince.zip"
+        },
+        {
+            "name": "Panic Restaurant",
+            "file": "Panic Restaurant.zip"
+        },
+        {
+            "name": "Paperboy I",
+            "file": "Paperboy I.zip"
+        },
+        {
+            "name": "Paperboy II",
+            "file": "Paperboy II.zip"
+        },
+        {
+            "name": "Parallel World",
+            "file": "Parallel World.zip"
+        },
+        {
+            "name": "Parasol Henbee",
+            "file": "Parasol Henbee.zip"
+        },
+        {
+            "name": "Parasol Stars - Bubble Bobble III",
+            "file": "Parasol Stars - Bubble Bobble III.zip"
+        },
+        {
+            "name": "Parodius",
+            "file": "Parodius.zip"
+        },
+        {
+            "name": "Peacock King I",
+            "file": "Peacock King I.zip"
+        },
+        {
+            "name": "Peacock King II",
+            "file": "Peacock King II.zip"
+        },
+        {
+            "name": "Peepar Time",
+            "file": "Peepar Time.zip"
+        },
+        {
+            "name": "Pegs",
+            "file": "Pegs.zip"
+        },
+        {
+            "name": "Penguin & Seal",
+            "file": "Penguin & Seal.zip"
+        },
+        {
+            "name": "Penguin Wars",
+            "file": "Penguin Wars.zip"
+        },
+        {
+            "name": "Perfect Bowling",
+            "file": "Perfect Bowling.zip"
+        },
+        {
+            "name": "Pescatore",
+            "file": "Pescatore.zip"
+        },
+        {
+            "name": "Pesterminator",
+            "file": "Pesterminator.zip"
+        },
+        {
+            "name": "Peter Pan & The Pirates",
+            "file": "Peter Pan & The Pirates.zip"
+        },
+        {
+            "name": "Phantom Fighter",
+            "file": "Phantom Fighter.zip"
+        },
+        {
+            "name": "Phoenix - Gao's Adventure",
+            "file": "Phoenix - Gao's Adventure.zip"
+        },
+        {
+            "name": "Photon - Ultimate Game on Planet Earth",
+            "file": "Photon - Ultimate Game on Planet Earth.zip"
+        },
+        {
+            "name": "Pictionary",
+            "file": "Pictionary.zip"
+        },
+        {
+            "name": "Pikachu Tetris",
+            "file": "Pikachu Tetris.zip"
+        },
+        {
+            "name": "Pin-Bot",
+            "file": "Pin-Bot.zip"
+        },
+        {
+            "name": "Pinball Quest",
+            "file": "Pinball Quest.zip"
+        },
+        {
+            "name": "Pinball",
+            "file": "Pinball.zip"
+        },
+        {
+            "name": "Pipe Dream",
+            "file": "Pipe Dream.zip"
+        },
+        {
+            "name": "PipeMania",
+            "file": "PipeMania.zip"
+        },
+        {
+            "name": "Pirates!",
+            "file": "Pirates!.zip"
+        },
+        {
+            "name": "Platoon",
+            "file": "Platoon.zip"
+        },
+        {
+            "name": "Pocahontas II",
+            "file": "Pocahontas II.zip"
+        },
+        {
+            "name": "Pocahontas",
+            "file": "Pocahontas.zip"
+        },
+        {
+            "name": "Pocket Monster",
+            "file": "Pocket Monster.zip"
+        },
+        {
+            "name": "Pocket Zaurus - Juu Ouken no Nazo",
+            "file": "Pocket Zaurus - Juu Ouken no Nazo.zip"
+        },
+        {
+            "name": "Poke Block",
+            "file": "Poke Block.zip"
+        },
+        {
+            "name": "Pokemon 4-in-1",
+            "file": "Pokemon 4-in-1.zip"
+        },
+        {
+            "name": "Poker II",
+            "file": "Poker II.zip"
+        },
+        {
+            "name": "Poker III",
+            "file": "Poker III.zip"
+        },
+        {
+            "name": "Pooyan",
+            "file": "Pooyan.zip"
+        },
+        {
+            "name": "Popeye Lingo Game",
+            "file": "Popeye Lingo Game.zip"
+        },
+        {
+            "name": "Popeye",
+            "file": "Popeye.zip"
+        },
+        {
+            "name": "Popo Team",
+            "file": "Popo Team.zip"
+        },
+        {
+            "name": "Portopia - Serial Murder Case",
+            "file": "Portopia - Serial Murder Case.zip"
+        },
+        {
+            "name": "POW - Prisoners of War",
+            "file": "POW - Prisoners of War.zip"
+        },
+        {
+            "name": "Power Blade I",
+            "file": "Power Blade I.zip"
+        },
+        {
+            "name": "Power Blade II",
+            "file": "Power Blade II.zip"
+        },
+        {
+            "name": "Power Blazer",
+            "file": "Power Blazer.zip"
+        },
+        {
+            "name": "Power Punch II",
+            "file": "Power Punch II.zip"
+        },
+        {
+            "name": "Power Rangers III",
+            "file": "Power Rangers III.zip"
+        },
+        {
+            "name": "Power Rangers IV",
+            "file": "Power Rangers IV.zip"
+        },
+        {
+            "name": "Power Soccer",
+            "file": "Power Soccer.zip"
+        },
+        {
+            "name": "Predator",
+            "file": "Predator.zip"
+        },
+        {
+            "name": "Prince of Persia",
+            "file": "Prince of Persia.zip"
+        },
+        {
+            "name": "Princess Tomato in Salad Kingdom",
+            "file": "Princess Tomato in Salad Kingdom.zip"
+        },
+        {
+            "name": "Princesstual Orgy",
+            "file": "Princesstual Orgy.zip"
+        },
+        {
+            "name": "Pro Sport Hockey",
+            "file": "Pro Sport Hockey.zip"
+        },
+        {
+            "name": "Pro Wrestling",
+            "file": "Pro Wrestling.zip"
+        },
+        {
+            "name": "Punch-Out!!",
+            "file": "Punch-Out!!.zip"
+        },
+        {
+            "name": "Punisher",
+            "file": "Punisher.zip"
+        },
+        {
+            "name": "Puss 'n Boots - Pero's Great Adventure",
+            "file": "Puss 'n Boots - Pero's Great Adventure.zip"
+        },
+        {
+            "name": "Puyo Puyo",
+            "file": "Puyo Puyo.zip"
+        },
+        {
+            "name": "Puzslot",
+            "file": "Puzslot.zip"
+        },
+        {
+            "name": "Puzzle",
+            "file": "Puzzle.zip"
+        },
+        {
+            "name": "Puzznic",
+            "file": "Puzznic.zip"
+        },
+        {
+            "name": "Pyokotan no Dai Meiro",
+            "file": "Pyokotan no Dai Meiro.zip"
+        },
+        {
+            "name": "Pyramid I",
+            "file": "Pyramid I.zip"
+        },
+        {
+            "name": "Pyramid II",
+            "file": "Pyramid II.zip"
+        },
+        {
+            "name": "Q Boy",
+            "file": "Q Boy.zip"
+        },
+        {
+            "name": "Q-bert",
+            "file": "Q-bert.zip"
+        },
+        {
+            "name": "Qix",
+            "file": "Qix.zip"
+        },
+        {
+            "name": "Quarter Back Scramble",
+            "file": "Quarter Back Scramble.zip"
+        },
+        {
+            "name": "Quarth",
+            "file": "Quarth.zip"
+        },
+        {
+            "name": "Quattro Adventure",
+            "file": "Quattro Adventure.zip"
+        },
+        {
+            "name": "Quattro Arcade",
+            "file": "Quattro Arcade.zip"
+        },
+        {
+            "name": "Quattro Sports",
+            "file": "Quattro Sports.zip"
+        },
+        {
+            "name": "Race America",
+            "file": "Race America.zip"
+        },
+        {
+            "name": "Racermate Challenge II",
+            "file": "Racermate Challenge II.zip"
+        },
+        {
+            "name": "Racket Attack",
+            "file": "Racket Attack.zip"
+        },
+        {
+            "name": "Rackets & Rivals",
+            "file": "Rackets & Rivals.zip"
+        },
+        {
+            "name": "Rad Racer I",
+            "file": "Rad Racer I.zip"
+        },
+        {
+            "name": "Rad Racer II",
+            "file": "Rad Racer II.zip"
+        },
+        {
+            "name": "Rad Racket - Deluxe Tennis II",
+            "file": "Rad Racket - Deluxe Tennis II.zip"
+        },
+        {
+            "name": "Raid 2020",
+            "file": "Raid 2020.zip"
+        },
+        {
+            "name": "Raid on Bungeling Bay",
+            "file": "Raid on Bungeling Bay.zip"
+        },
+        {
+            "name": "Rainbow Islands (Europe)",
+            "file": "Rainbow Islands (Europe).zip"
+        },
+        {
+            "name": "Rainbow Islands",
+            "file": "Rainbow Islands.zip"
+        },
+        {
+            "name": "Rainbow Silkroad",
+            "file": "Rainbow Silkroad.zip"
+        },
+        {
+            "name": "Rally Bike",
+            "file": "Rally Bike.zip"
+        },
+        {
+            "name": "Robo Warrior",
+            "file": "Robo Warrior.zip"
+        },
+        {
+            "name": "Robocco Wars",
+            "file": "Robocco Wars.zip"
+        },
+        {
+            "name": "Robocop I",
+            "file": "Robocop I.zip"
+        },
+        {
+            "name": "Robocop II",
+            "file": "Robocop II.zip"
+        },
+        {
+            "name": "Robocop III",
+            "file": "Robocop III.zip"
+        },
+        {
+            "name": "Robocop IV",
+            "file": "Robocop IV.zip"
+        },
+        {
+            "name": "Robocop Versus the Terminator",
+            "file": "Robocop Versus the Terminator.zip"
+        },
+        {
+            "name": "Robodemons",
+            "file": "Robodemons.zip"
+        },
+        {
+            "name": "Rock 'n' Ball",
+            "file": "Rock 'n' Ball.zip"
+        },
+        {
+            "name": "Rockball",
+            "file": "Rockball.zip"
+        },
+        {
+            "name": "Rocket Ranger",
+            "file": "Rocket Ranger.zip"
+        },
+        {
+            "name": "Rocketeer",
+            "file": "Rocketeer.zip"
+        },
+        {
+            "name": "Rockin' Kats",
+            "file": "Rockin' Kats.zip"
+        },
+        {
+            "name": "Rod Land featuring Rit & Tam",
+            "file": "Rod Land featuring Rit & Tam.zip"
+        },
+        {
+            "name": "Roger Clemens MVP Baseball",
+            "file": "Roger Clemens MVP Baseball.zip"
+        },
+        {
+            "name": "Rollerball",
+            "file": "Rollerball.zip"
+        },
+        {
+            "name": "Rollerblade Racer",
+            "file": "Rollerblade Racer.zip"
+        },
+        {
+            "name": "Rollergames",
+            "file": "Rollergames.zip"
+        },
+        {
+            "name": "Rolling Thunder",
+            "file": "Rolling Thunder.zip"
+        },
+        {
+            "name": "Space Harrier",
+            "file": "Space Harrier.zip"
+        },
+        {
+            "name": "Space Hunter",
+            "file": "Space Hunter.zip"
+        },
+        {
+            "name": "Space Invaders",
+            "file": "Space Invaders.zip"
+        },
+        {
+            "name": "Space Shadow",
+            "file": "Space Shadow.zip"
+        },
+        {
+            "name": "Space Shuttle Project",
+            "file": "Space Shuttle Project.zip"
+        },
+        {
+            "name": "Spelunker II",
+            "file": "Spelunker II.zip"
+        },
+        {
+            "name": "Spelunker",
+            "file": "Spelunker.zip"
+        },
+        {
+            "name": "Spider-Man - Return of the Sinister 6",
+            "file": "Spider-Man - Return of the Sinister 6.zip"
+        },
+        {
+            "name": "Spiderman II",
+            "file": "Spiderman II.zip"
+        },
+        {
+            "name": "Spiritual Warfare",
+            "file": "Spiritual Warfare.zip"
+        },
+        {
+            "name": "Splatter House",
+            "file": "Splatter House.zip"
+        },
+        {
+            "name": "Spooky Kitaro II",
+            "file": "Spooky Kitaro II.zip"
+        },
+        {
+            "name": "Spooky Kitaro in the Yokai World",
+            "file": "Spooky Kitaro in the Yokai World.zip"
+        },
+        {
+            "name": "Spot",
+            "file": "Spot.zip"
+        },
+        {
+            "name": "Spy Hunter",
+            "file": "Spy Hunter.zip"
+        },
+        {
+            "name": "Spy Vs Spy",
+            "file": "Spy Vs Spy.zip"
+        },
+        {
+            "name": "Sqoon (Japan)",
+            "file": "Sqoon (Japan).zip"
+        },
+        {
+            "name": "Sqoon",
+            "file": "Sqoon.zip"
+        },
+        {
+            "name": "Square's Tom Sawyer",
+            "file": "Square's Tom Sawyer.zip"
+        },
+        {
+            "name": "Stack-Up",
+            "file": "Stack-Up.zip"
+        },
+        {
+            "name": "Stadium Events",
+            "file": "Stadium Events.zip"
+        },
+        {
+            "name": "Stanley - The Search For Dr Livingston",
+            "file": "Stanley - The Search For Dr Livingston.zip"
+        },
+        {
+            "name": "Star Force",
+            "file": "Star Force.zip"
+        },
+        {
+            "name": "Star Luster",
+            "file": "Star Luster.zip"
+        },
+        {
+            "name": "Star Soldier Special",
+            "file": "Star Soldier Special.zip"
+        },
+        {
+            "name": "Star Soldier",
+            "file": "Star Soldier.zip"
+        },
+        {
+            "name": "Star Trek - 25th Anniversary",
+            "file": "Star Trek - 25th Anniversary.zip"
+        },
+        {
+            "name": "Star Trek - The Next Generation",
+            "file": "Star Trek - The Next Generation.zip"
+        },
+        {
+            "name": "Star Trek V - The Final Frontier",
+            "file": "Star Trek V - The Final Frontier.zip"
+        },
+        {
+            "name": "Star Voyager",
+            "file": "Star Voyager.zip"
+        },
+        {
+            "name": "Star Wars (Namco)",
+            "file": "Star Wars (Namco).zip"
+        },
+        {
+            "name": "Star Wars - The Empire Strikes Back",
+            "file": "Star Wars - The Empire Strikes Back.zip"
+        },
+        {
+            "name": "Star Wars",
+            "file": "Star Wars.zip"
+        },
+        {
+            "name": "Starship Hector",
+            "file": "Starship Hector.zip"
+        },
+        {
+            "name": "Startropics I",
+            "file": "Startropics I.zip"
+        },
+        {
+            "name": "Startropics II - Zoda's Revenge",
+            "file": "Startropics II - Zoda's Revenge.zip"
+        },
+        {
+            "name": "Stealth ATF",
+            "file": "Stealth ATF.zip"
+        },
+        {
+            "name": "STED - Starfield of Memorable Relics",
+            "file": "STED - Starfield of Memorable Relics.zip"
+        },
+        {
+            "name": "Stick Hunter - Exciting Ice Hockey",
+            "file": "Stick Hunter - Exciting Ice Hockey.zip"
+        },
+        {
+            "name": "Stinger",
+            "file": "Stinger.zip"
+        },
+        {
+            "name": "Storehouse No 18",
+            "file": "Storehouse No 18.zip"
+        },
+        {
+            "name": "Strategist",
+            "file": "Strategist.zip"
+        },
+        {
+            "name": "Street Basket - Ganbare Dunk Heroes",
+            "file": "Street Basket - Ganbare Dunk Heroes.zip"
+        },
+        {
+            "name": "Street Cop",
+            "file": "Street Cop.zip"
+        },
+        {
+            "name": "Street Fighter 2010 - The Final Fight",
+            "file": "Street Fighter 2010 - The Final Fight.zip"
+        },
+        {
+            "name": "Street Fighter Alpha Zero '97",
+            "file": "Street Fighter Alpha Zero '97.zip"
+        },
+        {
+            "name": "Street Fighter II",
+            "file": "Street Fighter II.zip"
+        },
+        {
+            "name": "Street Fighter III",
+            "file": "Street Fighter III.zip"
+        },
+        {
+            "name": "Street Fighter V - 20 peoples",
+            "file": "Street Fighter V - 20 peoples.zip"
+        },
+        {
+            "name": "Street Fighter Zero II",
+            "file": "Street Fighter Zero II.zip"
+        },
+        {
+            "name": "Street Heroes",
+            "file": "Street Heroes.zip"
+        },
+        {
+            "name": "Strider",
+            "file": "Strider.zip"
+        },
+        {
+            "name": "Strike Wolf",
+            "file": "Strike Wolf.zip"
+        },
+        {
+            "name": "Stunt Kids",
+            "file": "Stunt Kids.zip"
+        },
+        {
+            "name": "Sudoku",
+            "file": "Sudoku.zip"
+        },
+        {
+            "name": "Sugoro Quest - The Quest of Dice Heros",
+            "file": "Sugoro Quest - The Quest of Dice Heros.zip"
+        },
+        {
+            "name": "Sukeban Keiji III",
+            "file": "Sukeban Keiji III.zip"
+        },
+        {
+            "name": "Sumo Wrestling",
+            "file": "Sumo Wrestling.zip"
+        },
+        {
+            "name": "Sunday Funday",
+            "file": "Sunday Funday.zip"
+        },
+        {
+            "name": "Sunman",
+            "file": "Sunman.zip"
+        },
+        {
+            "name": "Super Aladdin",
+            "file": "Super Aladdin.zip"
+        },
+        {
+            "name": "Super Arabian",
+            "file": "Super Arabian.zip"
+        },
+        {
+            "name": "Super Black Onyx",
+            "file": "Super Black Onyx.zip"
+        },
+        {
+            "name": "Super Cars",
+            "file": "Super Cars.zip"
+        },
+        {
+            "name": "Super Cartridge Version 3 - 8-in-1",
+            "file": "Super Cartridge Version 3 - 8-in-1.zip"
+        },
+        {
+            "name": "Super Cartridge Version 6 - 6-in-1",
+            "file": "Super Cartridge Version 6 - 6-in-1.zip"
+        },
+        {
+            "name": "Super Cartridge Version 8 - 4-in-1",
+            "file": "Super Cartridge Version 8 - 4-in-1.zip"
+        },
+        {
+            "name": "Super Cartridge Version 9 - 3-in-1",
+            "file": "Super Cartridge Version 9 - 3-in-1.zip"
+        },
+        {
+            "name": "Super Contra VII",
+            "file": "Super Contra VII.zip"
+        },
+        {
+            "name": "Super Dodge Ball",
+            "file": "Super Dodge Ball.zip"
+        },
+        {
+            "name": "Super Donkey Kong I",
+            "file": "Super Donkey Kong I.zip"
+        },
+        {
+            "name": "Super Donkey Kong II",
+            "file": "Super Donkey Kong II.zip"
+        },
+        {
+            "name": "Super Dyna'mix Badminton",
+            "file": "Super Dyna'mix Badminton.zip"
+        },
+        {
+            "name": "Super Glove Ball",
+            "file": "Super Glove Ball.zip"
+        },
+        {
+            "name": "Super Jeopardy!",
+            "file": "Super Jeopardy!.zip"
+        },
+        {
+            "name": "Super Mario Bros I",
+            "file": "Super Mario Bros I.zip"
+        },
+        {
+            "name": "Super Mario Bros II (Japan)",
+            "file": "Super Mario Bros II (Japan).zip"
+        },
+        {
+            "name": "Super Mario Bros II (Prototype)",
+            "file": "Super Mario Bros II (Prototype).zip"
+        },
+        {
+            "name": "Super Mario Bros II",
+            "file": "Super Mario Bros II.zip"
+        },
+        {
+            "name": "Super Mario Bros III",
+            "file": "Super Mario Bros III.zip"
+        },
+        {
+            "name": "Super Mario World",
+            "file": "Super Mario World.zip"
+        },
+        {
+            "name": "Super Pang I",
+            "file": "Super Pang I.zip"
+        },
+        {
+            "name": "Super Pang II",
+            "file": "Super Pang II.zip"
+        },
+        {
+            "name": "Super Pinball",
+            "file": "Super Pinball.zip"
+        },
+        {
+            "name": "Super Pitfall",
+            "file": "Super Pitfall.zip"
+        },
+        {
+            "name": "Super Rugby",
+            "file": "Super Rugby.zip"
+        },
+        {
+            "name": "Super Shinobi",
+            "file": "Super Shinobi.zip"
+        },
+        {
+            "name": "Super Spike V'Ball",
+            "file": "Super Spike V'Ball.zip"
+        },
+        {
+            "name": "Super Sprint",
+            "file": "Super Sprint.zip"
+        },
+        {
+            "name": "Super Spy Hunter",
+            "file": "Super Spy Hunter.zip"
+        },
+        {
+            "name": "Super Star Force",
+            "file": "Super Star Force.zip"
+        },
+        {
+            "name": "Super Team Games",
+            "file": "Super Team Games.zip"
+        },
+        {
+            "name": "Super Turrican",
+            "file": "Super Turrican.zip"
+        },
+        {
+            "name": "Super Xevious - Gump no Nazo",
+            "file": "Super Xevious - Gump no Nazo.zip"
+        },
+        {
+            "name": "Superman (Prototype)",
+            "file": "Superman (Prototype).zip"
+        },
+        {
+            "name": "Superman",
+            "file": "Superman.zip"
+        },
+        {
+            "name": "Swamp Thing",
+            "file": "Swamp Thing.zip"
+        },
+        {
+            "name": "Sweet Home",
+            "file": "Sweet Home.zip"
+        },
+        {
+            "name": "Sword Master",
+            "file": "Sword Master.zip"
+        },
+        {
+            "name": "Swords And Serpents",
+            "file": "Swords And Serpents.zip"
+        },
+        {
+            "name": "T&C I - Wood & Water Rage",
+            "file": "T&C I - Wood & Water Rage.zip"
+        },
+        {
+            "name": "T&C II - Thrilla's Surfari",
+            "file": "T&C II - Thrilla's Surfari.zip"
+        },
+        {
+            "name": "Tabo's Tactics",
+            "file": "Tabo's Tactics.zip"
+        },
+        {
+            "name": "Taboo - The Sixth Sense",
+            "file": "Taboo - The Sixth Sense.zip"
+        },
+        {
+            "name": "Tag Team Wrestling",
+            "file": "Tag Team Wrestling.zip"
+        },
+        {
+            "name": "Tagin' Dragon",
+            "file": "Tagin' Dragon.zip"
+        },
+        {
+            "name": "Taito Chase HQ",
+            "file": "Taito Chase HQ.zip"
+        },
+        {
+            "name": "Takahashi Meijin no Bug-tte Honey",
+            "file": "Takahashi Meijin no Bug-tte Honey.zip"
+        },
+        {
+            "name": "TaleSpin",
+            "file": "TaleSpin.zip"
+        },
+        {
+            "name": "Target Renegade",
+            "file": "Target Renegade.zip"
+        },
+        {
+            "name": "Taro's Quest",
+            "file": "Taro's Quest.zip"
+        },
+        {
+            "name": "Tasac",
+            "file": "Tasac.zip"
+        },
+        {
+            "name": "Technos Ice Hockey",
+            "file": "Technos Ice Hockey.zip"
+        },
+        {
+            "name": "Technos Samurai - Downtown Special!",
+            "file": "Technos Samurai - Downtown Special!.zip"
+        },
+        {
+            "name": "Tecmo Baseball",
+            "file": "Tecmo Baseball.zip"
+        },
+        {
+            "name": "Tecmo Bowl",
+            "file": "Tecmo Bowl.zip"
+        },
+        {
+            "name": "Tecmo Cup - Soccer Game",
+            "file": "Tecmo Cup - Soccer Game.zip"
+        },
+        {
+            "name": "Tecmo NBA Basketball",
+            "file": "Tecmo NBA Basketball.zip"
+        },
+        {
+            "name": "Tecmo Super Bowl",
+            "file": "Tecmo Super Bowl.zip"
+        },
+        {
+            "name": "Tecmo Super Coach",
+            "file": "Tecmo Super Coach.zip"
+        },
+        {
+            "name": "Tecmo World Cup Soccer",
+            "file": "Tecmo World Cup Soccer.zip"
+        },
+        {
+            "name": "Tecmo World Wrestling",
+            "file": "Tecmo World Wrestling.zip"
+        },
+        {
+            "name": "Teenage Mutant Ninja Turtles I",
+            "file": "Teenage Mutant Ninja Turtles I.zip"
+        },
+        {
+            "name": "Teenage Mutant Ninja Turtles II",
+            "file": "Teenage Mutant Ninja Turtles II.zip"
+        },
+        {
+            "name": "Teenage Mutant Ninja Turtles III",
+            "file": "Teenage Mutant Ninja Turtles III.zip"
+        },
+        {
+            "name": "Tekken II",
+            "file": "Tekken II.zip"
+        },
+        {
+            "name": "Tekken III",
+            "file": "Tekken III.zip"
+        },
+        {
+            "name": "Tengen Tetris",
+            "file": "Tengen Tetris.zip"
+        },
+        {
+            "name": "Tennis",
+            "file": "Tennis.zip"
+        },
+        {
+            "name": "Terminator I",
+            "file": "Terminator I.zip"
+        },
+        {
+            "name": "Terminator II - Judgement Day",
+            "file": "Terminator II - Judgement Day.zip"
+        },
+        {
+            "name": "Terra Cresta",
+            "file": "Terra Cresta.zip"
+        },
+        {
+            "name": "Tetrastar - The Fighter",
+            "file": "Tetrastar - The Fighter.zip"
+        },
+        {
+            "name": "Tetris 2 & BomBliss",
+            "file": "Tetris 2 & BomBliss.zip"
+        },
+        {
+            "name": "Tetris I",
+            "file": "Tetris I.zip"
+        },
+        {
+            "name": "Tetris II",
+            "file": "Tetris II.zip"
+        },
+        {
+            "name": "Thexder",
+            "file": "Thexder.zip"
+        },
+        {
+            "name": "Thomas the Tank Engine and Friends",
+            "file": "Thomas the Tank Engine and Friends.zip"
+        },
+        {
+            "name": "Three Stooges",
+            "file": "Three Stooges.zip"
+        },
+        {
+            "name": "Thunder & Lightning",
+            "file": "Thunder & Lightning.zip"
+        },
+        {
+            "name": "Thunder Blast Man",
+            "file": "Thunder Blast Man.zip"
+        },
+        {
+            "name": "Thunder Warrior",
+            "file": "Thunder Warrior.zip"
+        },
+        {
+            "name": "Thunderbirds",
+            "file": "Thunderbirds.zip"
+        },
+        {
+            "name": "Thundercade",
+            "file": "Thundercade.zip"
+        },
+        {
+            "name": "Tic-Tac XO",
+            "file": "Tic-Tac XO.zip"
+        },
+        {
+            "name": "Tiger-Heli",
+            "file": "Tiger-Heli.zip"
+        },
+        {
+            "name": "Tiles of Fate",
+            "file": "Tiles of Fate.zip"
+        },
+        {
+            "name": "Time Diver Avenger",
+            "file": "Time Diver Avenger.zip"
+        },
+        {
+            "name": "Time Lord",
+            "file": "Time Lord.zip"
+        },
+        {
+            "name": "Time Zone",
+            "file": "Time Zone.zip"
+        },
+        {
+            "name": "Times of Lore",
+            "file": "Times of Lore.zip"
+        },
+        {
+            "name": "Tiny Toon Adventures Cartoon Workshop",
+            "file": "Tiny Toon Adventures Cartoon Workshop.zip"
+        },
+        {
+            "name": "Tiny Toon Adventures I",
+            "file": "Tiny Toon Adventures I.zip"
+        },
+        {
+            "name": "Tiny Toon Adventures II",
+            "file": "Tiny Toon Adventures II.zip"
+        },
+        {
+            "name": "Tiny Toon Adventures VI",
+            "file": "Tiny Toon Adventures VI.zip"
+        },
+        {
+            "name": "Titan Warriors",
+            "file": "Titan Warriors.zip"
+        },
+        {
+            "name": "Titan",
+            "file": "Titan.zip"
+        },
+        {
+            "name": "TMNT Tournament Fighters",
+            "file": "TMNT Tournament Fighters.zip"
+        },
+        {
+            "name": "To The Earth",
+            "file": "To The Earth.zip"
+        },
+        {
+            "name": "Toki",
+            "file": "Toki.zip"
+        },
+        {
+            "name": "Tokoro-San no Mamorumo Semerumo",
+            "file": "Tokoro-San no Mamorumo Semerumo.zip"
+        },
+        {
+            "name": "Tom & Jerry (and Tuffy)",
+            "file": "Tom & Jerry (and Tuffy).zip"
+        },
+        {
+            "name": "Tom & Jerry III",
+            "file": "Tom & Jerry III.zip"
+        },
+        {
+            "name": "Tombs and Treasure",
+            "file": "Tombs and Treasure.zip"
+        },
+        {
+            "name": "Toobin",
+            "file": "Toobin.zip"
+        },
+        {
+            "name": "Top Gun I",
+            "file": "Top Gun I.zip"
+        },
+        {
+            "name": "Top Gun II - The Second Mission",
+            "file": "Top Gun II - The Second Mission.zip"
+        },
+        {
+            "name": "Total Recall",
+            "file": "Total Recall.zip"
+        },
+        {
+            "name": "Totally Rad",
+            "file": "Totally Rad.zip"
+        },
+        {
+            "name": "Touchdown Fever",
+            "file": "Touchdown Fever.zip"
+        },
+        {
+            "name": "Tower of Babel",
+            "file": "Tower of Babel.zip"
+        },
+        {
+            "name": "Tower of Druaga",
+            "file": "Tower of Druaga.zip"
+        },
+        {
+            "name": "Toxic Crusaders",
+            "file": "Toxic Crusaders.zip"
+        },
+        {
+            "name": "Track & Field I",
+            "file": "Track & Field I.zip"
+        },
+        {
+            "name": "Track & Field II",
+            "file": "Track & Field II.zip"
+        },
+        {
+            "name": "Transformers - Mystery of Comvoy",
+            "file": "Transformers - Mystery of Comvoy.zip"
+        },
+        {
+            "name": "Treasure Master",
+            "file": "Treasure Master.zip"
+        },
+        {
+            "name": "Triathalon",
+            "file": "Triathalon.zip"
+        },
+        {
+            "name": "Trog!",
+            "file": "Trog!.zip"
+        },
+        {
+            "name": "Trojan",
+            "file": "Trojan.zip"
+        },
+        {
+            "name": "Trolls in Crazyland",
+            "file": "Trolls in Crazyland.zip"
+        },
+        {
+            "name": "Trolls on Treasure Island",
+            "file": "Trolls on Treasure Island.zip"
+        },
+        {
+            "name": "Twin Cobra",
+            "file": "Twin Cobra.zip"
+        },
+        {
+            "name": "Twin Eagle",
+            "file": "Twin Eagle.zip"
+        },
+        {
+            "name": "TwinBee I",
+            "file": "TwinBee I.zip"
+        },
+        {
+            "name": "TwinBee III",
+            "file": "TwinBee III.zip"
+        },
+        {
+            "name": "U-fouR-ia",
+            "file": "U-fouR-ia.zip"
+        },
+        {
+            "name": "Ultima - Exodus",
+            "file": "Ultima - Exodus.zip"
+        },
+        {
+            "name": "Ultima - Quest of the Avatar",
+            "file": "Ultima - Quest of the Avatar.zip"
+        },
+        {
+            "name": "Ultima - Warriors of Destiny",
+            "file": "Ultima - Warriors of Destiny.zip"
+        },
+        {
+            "name": "Ultimate Air Combat",
+            "file": "Ultimate Air Combat.zip"
+        },
+        {
+            "name": "Ultimate Basketball",
+            "file": "Ultimate Basketball.zip"
+        },
+        {
+            "name": "Ultimate League Soccer",
+            "file": "Ultimate League Soccer.zip"
+        },
+        {
+            "name": "Ultimate Stuntman",
+            "file": "Ultimate Stuntman.zip"
+        },
+        {
+            "name": "Uncharted Waters",
+            "file": "Uncharted Waters.zip"
+        },
+        {
+            "name": "Uninvited",
+            "file": "Uninvited.zip"
+        },
+        {
+            "name": "Universe Soldiers",
+            "file": "Universe Soldiers.zip"
+        },
+        {
+            "name": "Untouchables",
+            "file": "Untouchables.zip"
+        },
+        {
+            "name": "Urban Champion",
+            "file": "Urban Champion.zip"
+        },
+        {
+            "name": "Urban Strike",
+            "file": "Urban Strike.zip"
+        },
+        {
+            "name": "Urusei Yatsura - Lum no Wedding Bell",
+            "file": "Urusei Yatsura - Lum no Wedding Bell.zip"
+        },
+        {
+            "name": "Utsurun Desu",
+            "file": "Utsurun Desu.zip"
+        },
+        {
+            "name": "Valis - The Fantastic Soldier",
+            "file": "Valis - The Fantastic Soldier.zip"
+        },
+        {
+            "name": "Valkyrie's Adventure-Legend Time Key",
+            "file": "Valkyrie's Adventure-Legend Time Key.zip"
+        },
+        {
+            "name": "Vegas Dream",
+            "file": "Vegas Dream.zip"
+        },
+        {
+            "name": "Venice Beach Volleyball",
+            "file": "Venice Beach Volleyball.zip"
+        },
+        {
+            "name": "Vice - Project Doom",
+            "file": "Vice - Project Doom.zip"
+        },
+        {
+            "name": "Videomation",
+            "file": "Videomation.zip"
+        },
+        {
+            "name": "Vindicators",
+            "file": "Vindicators.zip"
+        },
+        {
+            "name": "Volguard II",
+            "file": "Volguard II.zip"
+        },
+        {
+            "name": "Volleyball",
+            "file": "Volleyball.zip"
+        },
+        {
+            "name": "VS Atari RBI Baseball",
+            "file": "VS Atari RBI Baseball.zip"
+        },
+        {
+            "name": "VS Battle City",
+            "file": "VS Battle City.zip"
+        },
+        {
+            "name": "VS Castlevania",
+            "file": "VS Castlevania.zip"
+        },
+        {
+            "name": "VS Clu Clu Land",
+            "file": "VS Clu Clu Land.zip"
+        },
+        {
+            "name": "VS Dr Mario",
+            "file": "VS Dr Mario.zip"
+        },
+        {
+            "name": "VS Duck Hunt",
+            "file": "VS Duck Hunt.zip"
+        },
+        {
+            "name": "VS Excitebike",
+            "file": "VS Excitebike.zip"
+        },
+        {
+            "name": "VS Freedom Force",
+            "file": "VS Freedom Force.zip"
+        },
+        {
+            "name": "VS Goonies",
+            "file": "VS Goonies.zip"
+        },
+        {
+            "name": "VS Gradius",
+            "file": "VS Gradius.zip"
+        },
+        {
+            "name": "VS Gumshoe",
+            "file": "VS Gumshoe.zip"
+        },
+        {
+            "name": "VS Hogan's Alley",
+            "file": "VS Hogan's Alley.zip"
+        },
+        {
+            "name": "VS Ice Climber",
+            "file": "VS Ice Climber.zip"
+        },
+        {
+            "name": "VS Mach Rider",
+            "file": "VS Mach Rider.zip"
+        },
+        {
+            "name": "VS Mighty Bomb Jack",
+            "file": "VS Mighty Bomb Jack.zip"
+        },
+        {
+            "name": "VS Ninja Jajamaru-kun",
+            "file": "VS Ninja Jajamaru-kun.zip"
+        },
+        {
+            "name": "VS Pinball",
+            "file": "VS Pinball.zip"
+        },
+        {
+            "name": "VS Platoon",
+            "file": "VS Platoon.zip"
+        },
+        {
+            "name": "VS Sky Kid",
+            "file": "VS Sky Kid.zip"
+        },
+        {
+            "name": "VS Slalom",
+            "file": "VS Slalom.zip"
+        },
+        {
+            "name": "VS Soccer",
+            "file": "VS Soccer.zip"
+        },
+        {
+            "name": "VS Star Luster",
+            "file": "VS Star Luster.zip"
+        },
+        {
+            "name": "VS Stroke & Match Golf - Ladies",
+            "file": "VS Stroke & Match Golf - Ladies.zip"
+        },
+        {
+            "name": "VS Stroke & Match Golf - Mens",
+            "file": "VS Stroke & Match Golf - Mens.zip"
+        },
+        {
+            "name": "VS Super Mario Bros",
+            "file": "VS Super Mario Bros.zip"
+        },
+        {
+            "name": "VS Super Xevious",
+            "file": "VS Super Xevious.zip"
+        },
+        {
+            "name": "VS Tetris",
+            "file": "VS Tetris.zip"
+        },
+        {
+            "name": "VS TKO Boxing",
+            "file": "VS TKO Boxing.zip"
+        },
+        {
+            "name": "VS Top Gun",
+            "file": "VS Top Gun.zip"
+        },
+        {
+            "name": "Wacky Races",
+            "file": "Wacky Races.zip"
+        },
+        {
+            "name": "Wagyan Land I",
+            "file": "Wagyan Land I.zip"
+        },
+        {
+            "name": "Wagyan Land II",
+            "file": "Wagyan Land II.zip"
+        },
+        {
+            "name": "Wai Wai World I",
+            "file": "Wai Wai World I.zip"
+        },
+        {
+            "name": "Wai Wai World II - SOS!!",
+            "file": "Wai Wai World II - SOS!!.zip"
+        },
+        {
+            "name": "Wait and See!",
+            "file": "Wait and See!.zip"
+        },
+        {
+            "name": "Wall Street Kid",
+            "file": "Wall Street Kid.zip"
+        },
+        {
+            "name": "Wally Bear and the No Gang",
+            "file": "Wally Bear and the No Gang.zip"
+        },
+        {
+            "name": "War In The Gulf",
+            "file": "War In The Gulf.zip"
+        },
+        {
+            "name": "Wario's Woods",
+            "file": "Wario's Woods.zip"
+        },
+        {
+            "name": "Warpman",
+            "file": "Warpman.zip"
+        },
+        {
+            "name": "Wayne Gretzky Hockey",
+            "file": "Wayne Gretzky Hockey.zip"
+        },
+        {
+            "name": "Wayne's World",
+            "file": "Wayne's World.zip"
+        },
+        {
+            "name": "WCW World Championship Wrestling",
+            "file": "WCW World Championship Wrestling.zip"
+        },
+        {
+            "name": "Werewolf",
+            "file": "Werewolf.zip"
+        },
+        {
+            "name": "Wheel of Fortune - Family Edition",
+            "file": "Wheel of Fortune - Family Edition.zip"
+        },
+        {
+            "name": "Wheel of Fortune - Junior Edition",
+            "file": "Wheel of Fortune - Junior Edition.zip"
+        },
+        {
+            "name": "Wheel of Fortune Starring Vanna White",
+            "file": "Wheel of Fortune Starring Vanna White.zip"
+        },
+        {
+            "name": "Wheel of Fortune",
+            "file": "Wheel of Fortune.zip"
+        },
+        {
+            "name": "Where In Time Is Carmen Sandiego",
+            "file": "Where In Time Is Carmen Sandiego.zip"
+        },
+        {
+            "name": "Where's Waldo",
+            "file": "Where's Waldo.zip"
+        },
+        {
+            "name": "Who Framed Roger Rabbit",
+            "file": "Who Framed Roger Rabbit.zip"
+        },
+        {
+            "name": "Whomp'Em",
+            "file": "Whomp'Em.zip"
+        },
+        {
+            "name": "Widget",
+            "file": "Widget.zip"
+        },
+        {
+            "name": "Wild Gunman",
+            "file": "Wild Gunman.zip"
+        },
+        {
+            "name": "Willow",
+            "file": "Willow.zip"
+        },
+        {
+            "name": "Wily & Light's RockBoard",
+            "file": "Wily & Light's RockBoard.zip"
+        },
+        {
+            "name": "Win Lose or Draw",
+            "file": "Win Lose or Draw.zip"
+        },
+        {
+            "name": "Wing of Madoola",
+            "file": "Wing of Madoola.zip"
+        },
+        {
+            "name": "Winter Games",
+            "file": "Winter Games.zip"
+        },
+        {
+            "name": "Wisdom Boy",
+            "file": "Wisdom Boy.zip"
+        },
+        {
+            "name": "Wit's",
+            "file": "Wit's.zip"
+        },
+        {
+            "name": "Wizardry - Proving Grounds",
+            "file": "Wizardry - Proving Grounds.zip"
+        },
+        {
+            "name": "Wizardry - The Knight of Diamonds",
+            "file": "Wizardry - The Knight of Diamonds.zip"
+        },
+        {
+            "name": "Wizards & Warriors I",
+            "file": "Wizards & Warriors I.zip"
+        },
+        {
+            "name": "Wizards & Warriors II - Ironsword",
+            "file": "Wizards & Warriors II - Ironsword.zip"
+        },
+        {
+            "name": "Wizards & Warriors III",
+            "file": "Wizards & Warriors III.zip"
+        },
+        {
+            "name": "Wolverine",
+            "file": "Wolverine.zip"
+        },
+        {
+            "name": "Woody Poko",
+            "file": "Woody Poko.zip"
+        },
+        {
+            "name": "World Champ",
+            "file": "World Champ.zip"
+        },
+        {
+            "name": "World Class Track Meet",
+            "file": "World Class Track Meet.zip"
+        },
+        {
+            "name": "World Games",
+            "file": "World Games.zip"
+        },
+        {
+            "name": "World Hero",
+            "file": "World Hero.zip"
+        },
+        {
+            "name": "World of Card Game",
+            "file": "World of Card Game.zip"
+        },
+        {
+            "name": "Wrath of the Black Manta",
+            "file": "Wrath of the Black Manta.zip"
+        },
+        {
+            "name": "Wrecking Crew",
+            "file": "Wrecking Crew.zip"
+        },
+        {
+            "name": "Wurm",
+            "file": "Wurm.zip"
+        },
+        {
+            "name": "WWF King of the Ring",
+            "file": "WWF King of the Ring.zip"
+        },
+        {
+            "name": "WWF Steel Cage Challenge",
+            "file": "WWF Steel Cage Challenge.zip"
+        },
+        {
+            "name": "WWF Wrestlemania Challenge",
+            "file": "WWF Wrestlemania Challenge.zip"
+        },
+        {
+            "name": "WWF Wrestlemania",
+            "file": "WWF Wrestlemania.zip"
+        },
+        {
+            "name": "Xenophobe",
+            "file": "Xenophobe.zip"
+        },
+        {
+            "name": "Xevious",
+            "file": "Xevious.zip"
+        },
+        {
+            "name": "Xexyz",
+            "file": "Xexyz.zip"
+        },
+        {
+            "name": "Xybots",
+            "file": "Xybots.zip"
+        },
+        {
+            "name": "Yie Ar Kung-Fu",
+            "file": "Yie Ar Kung-Fu.zip"
+        },
+        {
+            "name": "Yo! Noid",
+            "file": "Yo! Noid.zip"
+        },
+        {
+            "name": "Yoshi's Cookie",
+            "file": "Yoshi's Cookie.zip"
+        },
+        {
+            "name": "Yoshi",
+            "file": "Yoshi.zip"
+        },
+        {
+            "name": "Youkai Club",
+            "file": "Youkai Club.zip"
+        },
+        {
+            "name": "Young Indiana Jones Chronicles",
+            "file": "Young Indiana Jones Chronicles.zip"
+        },
+        {
+            "name": "Ys I",
+            "file": "Ys I.zip"
+        },
+        {
+            "name": "Ys II - Ancient Ys Vanished - Final Ch",
+            "file": "Ys II - Ancient Ys Vanished - Final Ch.zip"
+        },
+        {
+            "name": "Ys III - Wanderers From Ys",
+            "file": "Ys III - Wanderers From Ys.zip"
+        },
+        {
+            "name": "Yuu Yuu Hakusho Final",
+            "file": "Yuu Yuu Hakusho Final.zip"
+        },
+        {
+            "name": "Zanac",
+            "file": "Zanac.zip"
+        },
+        {
+            "name": "Zelda II - The Adventure of Link",
+            "file": "Zelda II - The Adventure of Link.zip"
+        },
+        {
+            "name": "Zelda II Challenge",
+            "file": "Zelda II Challenge.zip"
+        },
+        {
+            "name": "Zen Intergalactic Ninja",
+            "file": "Zen Intergalactic Ninja.zip"
+        },
+        {
+            "name": "Zippy Race",
+            "file": "Zippy Race.zip"
+        },
+        {
+            "name": "Zombie Hunter",
+            "file": "Zombie Hunter.zip"
+        },
+        {
+            "name": "Zombie Nation",
+            "file": "Zombie Nation.zip"
+        },
+        {
+            "name": "Zunou Senkan Galg",
+            "file": "Zunou Senkan Galg.zip"
+        }
+    ],
+    "snes": [
+        {
+            "name": "Battletoads & Double Dragon",
+            "file": "Battletoads & Double Dragon.smc"
+        },
+        {
+            "name": "Battletoads in Battlemaniacs",
+            "file": "Battletoads in Battlemaniacs.smc"
+        },
+        {
+            "name": "BioMetal",
+            "file": "BioMetal.sfc"
+        },
+        {
+            "name": "Contra III",
+            "file": "Contra III.smc"
+        },
+        {
+            "name": "Donkey Kong Country 2 - Diddy's Kong Quest",
+            "file": "Donkey Kong Country 2 - Diddy's Kong Quest.smc"
+        },
+        {
+            "name": "Donkey Kong Country 3 - Dixie Kong's Double Trouble!",
+            "file": "Donkey Kong Country 3 - Dixie Kong's Double Trouble!.fig"
+        },
+        {
+            "name": "Donkey Kong Country",
+            "file": "Donkey Kong Country.smc"
+        },
+        {
+            "name": "Dragon - The Bruce Lee Story",
+            "file": "Dragon - The Bruce Lee Story.smc"
+        },
+        {
+            "name": "Final Fantasy II (USA)",
+            "file": "Final Fantasy II (USA).smc"
+        },
+        {
+            "name": "Final Fantasy II",
+            "file": "Final Fantasy II.smc"
+        },
+        {
+            "name": "Final Fantasy III",
+            "file": "Final Fantasy III.smc"
+        },
+        {
+            "name": "Final Fantasy V",
+            "file": "Final Fantasy V.smc"
+        },
+        {
+            "name": "Final Fight 2",
+            "file": "Final Fight 2.sfc"
+        },
+        {
+            "name": "Final Fight Guy",
+            "file": "Final Fight Guy.smc"
+        },
+        {
+            "name": "Final Fight",
+            "file": "Final Fight.smc"
+        },
+        {
+            "name": "Gradius III",
+            "file": "Gradius III.smc"
+        },
+        {
+            "name": "Jelly Boy 2",
+            "file": "Jelly Boy 2.fig"
+        },
+        {
+            "name": "Jelly Boy",
+            "file": "Jelly Boy.fig"
+        },
+        {
+            "name": "Jetsons, The - Invasion of the Planet Pirates",
+            "file": "Jetsons, The - Invasion of the Planet Pirates.sfc"
+        },
+        {
+            "name": "Legend of Zelda, The - A Link to the Past",
+            "file": "Legend of Zelda, The - A Link to the Past.smc"
+        },
+        {
+            "name": "Legend",
+            "file": "Legend.sfc"
+        },
+        {
+            "name": "Lemmings",
+            "file": "Lemmings.smc"
+        },
+        {
+            "name": "Lion King, The",
+            "file": "Lion King, The.smc"
+        },
+        {
+            "name": "Looney Tunes B-Ball",
+            "file": "Looney Tunes B-Ball.sfc"
+        },
+        {
+            "name": "Mega Man 7",
+            "file": "Mega Man 7.smc"
+        },
+        {
+            "name": "Mega Man X",
+            "file": "Mega Man X.smc"
+        },
+        {
+            "name": "Mega Man X2",
+            "file": "Mega Man X2.smc"
+        },
+        {
+            "name": "Mega Man X3",
+            "file": "Mega Man X3.smc"
+        },
+        {
+            "name": "Megaman & Bass",
+            "file": "Megaman & Bass.smc"
+        },
+        {
+            "name": "Metal Warriors",
+            "file": "Metal Warriors.smc"
+        },
+        {
+            "name": "Mickey Mania - The Timeless Adventures of Mickey Mouse",
+            "file": "Mickey Mania - The Timeless Adventures of Mickey Mouse.swc"
+        },
+        {
+            "name": "Mickey Mouse - The Magical Quest",
+            "file": "Mickey Mouse - The Magical Quest.smc"
+        },
+        {
+            "name": "Mickey to Donald - Magical Adventure 3",
+            "file": "Mickey to Donald - Magical Adventure 3.smc"
+        },
+        {
+            "name": "Monstania",
+            "file": "Monstania.smc"
+        },
+        {
+            "name": "Mortal Kombat 3",
+            "file": "Mortal Kombat 3.sfc"
+        },
+        {
+            "name": "Mortal Kombat II",
+            "file": "Mortal Kombat II.smc"
+        },
+        {
+            "name": "Mortal Kombat",
+            "file": "Mortal Kombat.smc"
+        },
+        {
+            "name": "Prince of Persia 2 - The Shadow & The Flame",
+            "file": "Prince of Persia 2 - The Shadow & The Flame.smc"
+        },
+        {
+            "name": "Prince of Persia",
+            "file": "Prince of Persia.smc"
+        },
+        {
+            "name": "Super Bomberman 2",
+            "file": "Super Bomberman 2.smc"
+        },
+        {
+            "name": "Super Castlevania IV",
+            "file": "Super Castlevania IV.smc"
+        },
+        {
+            "name": "Super Mario RPG - Legend of the Seven Stars",
+            "file": "Super Mario RPG - Legend of the Seven Stars.smc"
+        },
+        {
+            "name": "Super Mario World 2 - Yoshi's Island",
+            "file": "Super Mario World 2 - Yoshi's Island.smc"
+        },
+        {
+            "name": "Super Mario World",
+            "file": "Super Mario World.smc"
+        },
+        {
+            "name": "Super Metroid",
+            "file": "Super Metroid.smc"
+        },
+        {
+            "name": "Super Street Fighter II",
+            "file": "Super Street Fighter II.smc"
+        },
+        {
+            "name": "Top Gear 2",
+            "file": "Top Gear 2.smc"
+        },
+        {
+            "name": "Top Gear 3000",
+            "file": "Top Gear 3000.sfc"
+        }
+    ],
+    "megadrive": [
+        {
+            "name": "Ghouls 'n Ghosts (USA, Europe)",
+            "file": "Ghouls 'n Ghosts (USA, Europe).zip"
+        },
+        {
+            "name": "Gods (USA)",
+            "file": "Gods (USA).zip"
+        },
+        {
+            "name": "Golden Axe (World) (Rev A)",
+            "file": "Golden Axe (World) (Rev A).zip"
+        },
+        {
+            "name": "Golden Axe II (World)",
+            "file": "Golden Axe II (World).zip"
+        },
+        {
+            "name": "Golden Axe III (Japan) (En)",
+            "file": "Golden Axe III (Japan) (En).zip"
+        },
+        {
+            "name": "Legend Of Wukong",
+            "file": "Legend Of Wukong.zip"
+        },
+        {
+            "name": "Lemmings (USA)",
+            "file": "Lemmings (USA).zip"
+        },
+        {
+            "name": "McDonald's Treasure Land Adventure (USA)",
+            "file": "McDonald's Treasure Land Adventure (USA).zip"
+        },
+        {
+            "name": "Mega Man - The Wily Wars (Europe)",
+            "file": "Mega Man - The Wily Wars (Europe).zip"
+        },
+        {
+            "name": "Michael Jackson's Moonwalker (Japan, USA)",
+            "file": "Michael Jackson's Moonwalker (Japan, USA).zip"
+        },
+        {
+            "name": "Monster World IV (USA) (Genesis Mini)",
+            "file": "Monster World IV (USA) (Genesis Mini).zip"
+        },
+        {
+            "name": "Sonic 3D Blast (USA, Europe)",
+            "file": "Sonic 3D Blast (USA, Europe).zip"
+        },
+        {
+            "name": "Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe, Korea)",
+            "file": "Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe, Korea).zip"
+        },
+        {
+            "name": "Sonic The Hedgehog (USA, Europe)",
+            "file": "Sonic The Hedgehog (USA, Europe).zip"
+        }
+    ]
+}

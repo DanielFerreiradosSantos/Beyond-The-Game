@@ -1,0 +1,571 @@
+
+/* =====================================================
+   BEYOND THE GAME
+   PÁGINA: PROGRAMAÇÃO
+   TEMA: TETRIS CLÁSSICO NES
+   ===================================================== */
+
+
+/* =====================================================
+   1. CONFIGURAÇÕES GERAIS
+   ===================================================== */
+
+#programming-page {
+    min-height: 100vh;
+    margin: 0;
+
+    background:
+        linear-gradient(
+            rgba(3, 8, 25, 0.86),
+            rgba(3, 8, 25, 0.94)
+        ),
+        url("../assets/background/programacao-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   2. CONTAINER PRINCIPAL
+   ===================================================== */
+
+.programming-container {
+    width: min(1000px, 92%);
+    margin: 0 auto;
+    padding: 110px 0 45px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+/* =====================================================
+   3. CABEÇALHO
+   ===================================================== */
+
+.programming-header {
+    text-align: center;
+    padding: 35px 15px 25px;
+}
+
+.programming-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    color: #39d9ff;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+.label-square {
+    width: 9px;
+    height: 9px;
+    background: #39d9ff;
+
+    box-shadow: 0 0 12px #39d9ff;
+}
+
+.programming-header h1 {
+    margin: 20px 0 10px;
+
+    font-family: "Lilita One", sans-serif;
+    font-size: clamp(40px, 7vw, 70px);
+
+    color: #39d9ff;
+
+    text-shadow:
+        4px 4px 0 #07518b,
+        7px 7px 0 #031d42;
+}
+
+.programming-subtitle {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+
+    color: #d5eaff;
+    font-size: 17px;
+}
+
+.header-decoration {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 25px;
+}
+
+.header-decoration span {
+    width: 25px;
+    height: 7px;
+    background: #168bd5;
+}
+
+.header-decoration span:nth-child(2),
+.header-decoration span:nth-child(4) {
+    background: #e7c83c;
+}
+
+.header-decoration span:nth-child(3) {
+    background: #d84bde;
+}
+
+
+/* =====================================================
+   4. SEÇÕES
+   ===================================================== */
+
+.programming-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    border-bottom: 2px solid rgba(57, 217, 255, 0.35);
+    padding-bottom: 12px;
+}
+
+.section-number {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    color: #39d9ff;
+}
+
+.section-heading h2 {
+    margin: 0;
+
+    font-family: "Lilita One", sans-serif;
+    font-size: 23px;
+
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+/* =====================================================
+   5. CAIXAS DE CONTEÚDO
+   ===================================================== */
+
+.programming-box {
+    position: relative;
+
+    padding: 28px;
+
+    background: rgba(5, 20, 48, 0.90);
+
+    border: 2px solid #1766a5;
+    border-left: 6px solid #39d9ff;
+
+    box-shadow:
+        5px 5px 0 rgba(0, 0, 0, 0.35),
+        0 0 20px rgba(20, 143, 220, 0.10);
+}
+
+.programming-box h3 {
+    margin-top: 0;
+
+    color: #52dfff;
+
+    font-family: "Lilita One", sans-serif;
+    font-size: 23px;
+}
+
+.programming-box p {
+    color: #dceaff;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   6. INTRODUÇÃO
+   ===================================================== */
+
+.introduction-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-text {
+    flex: 1;
+}
+
+.tetris-decoration {
+    min-width: 130px;
+    min-height: 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.tetromino {
+    display: block;
+    width: 65px;
+    height: 15px;
+    position: relative;
+}
+
+.tetris-i {
+    background: #39d9ff;
+    box-shadow: 0 0 12px rgba(57, 217, 255, 0.4);
+}
+
+.tetris-t {
+    width: 45px;
+    background: #b65cff;
+}
+
+.tetris-l {
+    width: 30px;
+    background: #ffad32;
+}
+
+
+/* =====================================================
+   7. CARDS
+   ===================================================== */
+
+.programming-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.programming-card {
+    min-width: 0;
+    padding: 22px;
+
+    background: rgba(6, 25, 57, 0.94);
+
+    border: 2px solid #174e83;
+    border-bottom: 5px solid #168bd5;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease;
+}
+
+.programming-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #39d9ff;
+    border-bottom-color: #39d9ff;
+
+    background: rgba(10, 43, 83, 0.98);
+}
+
+.programming-card h3 {
+    color: #ffffff;
+
+    font-family: "Lilita One", sans-serif;
+    font-size: 20px;
+}
+
+.programming-card p {
+    color: #c9ddf5;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   8. IDENTIFICADORES DOS CARDS
+   ===================================================== */
+
+.card-symbol {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    color: #07152b;
+}
+
+.symbol-blue {
+    background: #39d9ff;
+}
+
+.symbol-purple {
+    background: #bd79ff;
+}
+
+.symbol-orange {
+    background: #ffad32;
+}
+
+.symbol-green {
+    background: #56e59b;
+}
+
+.symbol-red {
+    background: #ff6464;
+}
+
+.symbol-cyan {
+    background: #7beeff;
+}
+
+
+/* =====================================================
+   9. LINGUAGENS
+   ===================================================== */
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+.language-item {
+    text-align: center;
+
+    padding: 18px 10px;
+
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid #275d8e;
+}
+
+.language-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 12px;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #07152b;
+}
+
+.language-c {
+    background: #68a8ff;
+}
+
+.language-python {
+    background: #f5d45b;
+}
+
+.language-js {
+    background: #f2d64b;
+}
+
+.language-java {
+    background: #f28d56;
+}
+
+.language-item h4 {
+    margin: 5px 0;
+
+    font-family: "Lilita One", sans-serif;
+    font-size: 19px;
+
+    color: #ffffff;
+}
+
+.language-item p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+/* =====================================================
+   10. EVOLUÇÃO E CONHECIMENTO
+   ===================================================== */
+
+.evolution-box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.evolution-content {
+    flex: 1;
+}
+
+.evolution-decoration {
+    min-width: 130px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 35px);
+    gap: 5px;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.evolution-block {
+    width: 35px;
+    height: 35px;
+
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.block-1 {
+    background: #39d9ff;
+}
+
+.block-2 {
+    background: #b65cff;
+}
+
+.block-3 {
+    background: #ffad32;
+}
+
+.block-4 {
+    background: #56e59b;
+}
+
+
+/* =====================================================
+   11. RODAPÉ
+   ===================================================== */
+
+.programming-footer {
+    text-align: center;
+    padding: 30px 10px 15px;
+}
+
+.footer-decoration {
+    width: 100%;
+    height: 3px;
+
+    margin-bottom: 22px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #39d9ff,
+        #b65cff,
+        #ffad32,
+        transparent
+    );
+}
+
+.programming-footer p {
+    margin: 0;
+
+    color: #39d9ff;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+.programming-footer span {
+    display: block;
+    margin-top: 9px;
+
+    color: #9db9d7;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 11px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =====================================================
+   12. RESPONSIVIDADE
+   ===================================================== */
+
+@media (max-width: 750px) {
+
+    .programming-container {
+        width: 90%;
+        padding-top: 100px;
+    }
+
+    .programming-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .language-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .introduction-box {
+        flex-direction: column;
+    }
+
+    .tetris-decoration {
+        min-height: 90px;
+    }
+
+    .evolution-box {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .programming-container {
+        width: 92%;
+    }
+
+    .programming-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .programming-header h1 {
+        font-size: 40px;
+    }
+
+    .section-heading h2 {
+        font-size: 18px;
+    }
+
+    .programming-box {
+        padding: 20px;
+    }
+
+    .programming-card {
+        padding: 20px;
+    }
+
+}
